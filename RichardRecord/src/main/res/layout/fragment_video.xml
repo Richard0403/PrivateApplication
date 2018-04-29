@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.richard.record.fragments.VideoFragment">
+    <include
+        android:id="@+id/ic_header"
+        layout="@layout/common_toolbar" />
+    <ScrollView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:scrollbars="none"
+        android:layout_below="@id/ic_header">
+        <LinearLayout
+            android:id="@+id/layout_vedio_replace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <com.richard.record.widget.MaxListView
+                android:id="@+id/lv_vedio_long"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@color/list_line"
+                android:dividerHeight="1dip"
+                android:footerDividersEnabled="true"
+                android:scrollbars="none" >
+            </com.richard.record.widget.MaxListView>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"></View>
+            <com.richard.record.widget.MaxListView
+                android:id="@+id/lv_vedio_short"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@color/list_line"
+                android:dividerHeight="1dip"
+                android:headerDividersEnabled="true"
+                android:scrollbars="none" >
+            </com.richard.record.widget.MaxListView>
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+
+    <RelativeLayout
+        android:id="@+id/rl_no_record"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_no_record"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="无记录"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

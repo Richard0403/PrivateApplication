@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.richard.diary.view.main.MainActivity">
+
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/draw_layout"
+        android:layout_below="@id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!-- 内容部分 -->
+        <com.richard.diary.widget.layout.DrawerMainView
+            android:id="@+id/dm_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"/>
+
+        <!-- 菜单部分 -->
+        <com.richard.diary.widget.layout.DrawerSideView
+            android:id="@+id/ds_view"
+            android:layout_width="230dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"/>
+    </android.support.v4.widget.DrawerLayout>
+
+</RelativeLayout>

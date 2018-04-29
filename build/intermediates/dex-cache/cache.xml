@@ -1,0 +1,895 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\logging-interceptor\3.1.2\a1b4b8e4dc5f7bfa9186e79f9e267c1539a847b0\logging-interceptor-3.1.2.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="27.0.2"
+        sha1="a1b4b8e4dc5f7bfa9186e79f9e267c1539a847b0">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\diary\build\intermediates\transforms\preDex\release\16.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-fragment-25.0.1.aar\9add283fdb51875a5a971f3e8efae13a\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\beautypic\build\intermediates\transforms\preDex\release\21.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\diary\libs\umeng_social_tool.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="27.0.2"
+        sha1="87ef211d4ef0c257c7d040fbaa411832330eb9aa">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\diary\build\intermediates\transforms\preDex\release\50.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\9ae1521011000792c309fcd19abb5bd8\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="27.0.2"
+        sha1="40392f30a601db5675cdf18192aab013d6fee6ec">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\diary\build\intermediates\transforms\preDex\release\33.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\indicatorseekbar-1.2.3.aar\814ecea46407f78dc3dc86764062cff1\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="27.0.2"
+        sha1="e5914114990c3dfb5d1933d480f331ed7a588241">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\diary\build\intermediates\transforms\preDex\release\18.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.1.0\2de7cd8b95b7021b1d597f049bcb422055119f2c\retrofit-2.1.0.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\beautypic\build\intermediates\transforms\preDex\release\10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\Luban-1.1.3.aar\979dc2d407e981f0266481fc082a775a\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="27.0.2"
+        sha1="a0bc60f749ba6ddd79d4ba9cb5c7211558c311da">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\diary\build\intermediates\transforms\preDex\release\27.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.3.0\2b802460eea20f8f2ad9c08c74e0f14718e88aa9\okhttp-3.3.0.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="27.0.2"
+        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\diary\build\intermediates\transforms\preDex\release\42.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\butterknife-8.4.0.aar\6b63006358d38a326b69b28c9896c611\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a07818a1ecabdb149998823429cce555af4b9cba">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\beautypic\build\intermediates\transforms\preDex\release\14.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\modules-2\files-2.1\io.reactivex\rxjava\1.2.1\4e4cfa4adc74521d5966799fa5ab70b733552f68\rxjava-1.2.1.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="27.0.2"
+        sha1="4e4cfa4adc74521d5966799fa5ab70b733552f68">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\diary\build\intermediates\transforms\preDex\release\15.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.0.1.aar\67621a9d0a11dc1eac6297ebdc018d16\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\beautypic\build\intermediates\transforms\preDex\release\28.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.8.0\5ea7af56cc7c567ed9856d99efb30740e9b17ff\okio-1.8.0.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\beautypic\build\intermediates\transforms\preDex\release\36.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\convenientbanner-2.0.5.aar\318d7fd01a932f06521b4e9a4b009e4b\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="27.0.2"
+        sha1="b99798f653c15a17af6779bb9f01a66f2ee6e6ef">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\diary\build\intermediates\transforms\preDex\release\24.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\glide-transformations-2.0.0.aar\85d7bc608df842ee378d949f0eda2d82\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="dca7a60bcc49fedf852b01a28826329c330ba977">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\beautypic\build\intermediates\transforms\preDex\release\16.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.0.1.aar\b4a3a66310135261ed2dc59c45836af2\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\beautypic\build\intermediates\transforms\preDex\release\29.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.0.1.aar\85fb9cb5bbc94b6616f94a68b7528026\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\beautypic\build\intermediates\transforms\preDex\release\23.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\diary\libs\umeng_social_api.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="27.0.2"
+        sha1="b680704ac08a1203f713be45e7c95653bb7497fe">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\diary\build\intermediates\transforms\preDex\release\51.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\modules-2\files-2.1\com.tencent.mm.opensdk\wechat-sdk-android-with-mta\5.1.4\a2166720f73c470341d9cf4b57edd3bbd42f8f8c\wechat-sdk-android-with-mta-5.1.4.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="27.0.2"
+        sha1="a2166720f73c470341d9cf4b57edd3bbd42f8f8c">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\diary\build\intermediates\transforms\preDex\release\19.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\82ace087aa6bac0084ac1e92dbeef999\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="27.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\diary\build\intermediates\transforms\preDex\release\1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\26.1.0\814258103cf26a15fcc26ecce35f5b7d24b73f8\support-annotations-26.1.0.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="27.0.2"
+        sha1="0814258103cf26a15fcc26ecce35f5b7d24b73f8">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\diary\build\intermediates\transforms\preDex\release\41.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.1.0\aa557d71ead91cbf26e0c316a0f593d168303309\converter-gson-2.1.0.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\beautypic\build\intermediates\transforms\preDex\release\8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\glide-transformations-1.4.0.aar\f550f8c9f7cbdc89b7336ec9ff2d618c\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="27.0.2"
+        sha1="6409f2fc6fddaee1ec537e08d8b3037fccc7cffe">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\diary\build\intermediates\transforms\preDex\release\20.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\imageselector-1.3.3.aar\1a9303d4de07d1fadcee1804aae3d480\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="27.0.2"
+        sha1="7225b7d0b1c56f56f96358d0925818c2a3354e85">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\diary\build\intermediates\transforms\preDex\release\25.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\494473ca21ea3db3066080241aa75881\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="27.0.2"
+        sha1="2442771a5590dd4eb4bce00c2e9dca9e22e4c963">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\diary\build\intermediates\transforms\preDex\release\40.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\modules-2\files-2.1\com.j256.ormlite\ormlite-core\4.48\e579bd2905d0399af5029aaaf9817d5fa0ca88a5\ormlite-core-4.48.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="27.0.2"
+        sha1="e579bd2905d0399af5029aaaf9817d5fa0ca88a5">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\diary\build\intermediates\transforms\preDex\release\45.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\modules-2\files-2.1\com.alexvasilkov\gesture-views\2.3.2\8b2859252a7160d2684236ffc903cbccdc29d6ba\gesture-views-2.3.2.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8b2859252a7160d2684236ffc903cbccdc29d6ba">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\beautypic\build\intermediates\transforms\preDex\release\18.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\modules-2\files-2.1\android.arch.lifecycle\common\1.0.0\e414a4cb28434e25c4f6aa71426eb20cf4874ae9\common-1.0.0.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="27.0.2"
+        sha1="e414a4cb28434e25c4f6aa71426eb20cf4874ae9">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\diary\build\intermediates\transforms\preDex\release\47.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\369aac093df85fe3fc32bc6a3d055296\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="27.0.2"
+        sha1="233f60a165ae622c8b36731502ebbda0f65e1930">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\diary\build\intermediates\transforms\preDex\release\39.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\modules-2\files-2.1\com.amap.api\location\3.8.0\e6f7bc37e0cd684f23fa8d5ce5247d90aae5685f\location-3.8.0.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="27.0.2"
+        sha1="e6f7bc37e0cd684f23fa8d5ce5247d90aae5685f">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\diary\build\intermediates\transforms\preDex\release\22.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\library-1.1.0.aar\9e4cde41d069cfa773d6e259d03eb800\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="27.0.2"
+        sha1="d89b45d635092afe0b971eb547293718f520f609">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\diary\build\intermediates\transforms\preDex\release\5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\ScrollableLayout-1.0.3.aar\8da2d27e29cd6191405fe446e9a70888\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="27.0.2"
+        sha1="ba274c43f28ea11c8894254841f4c237d090139a">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\diary\build\intermediates\transforms\preDex\release\3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.0.1.aar\036ce78dce46b83953e1df945b7dad54\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\beautypic\build\intermediates\transforms\preDex\release\24.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-v4-25.0.1.aar\540eedfac0c2c85fc957a017122c653f\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\beautypic\build\intermediates\transforms\preDex\release\6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\modules-2\files-2.1\com.jokermonn\permissions4m-annotation\1.0.3\d0d5bb6c5298bfe249e5f9a6e6726b83025a2356\permissions4m-annotation-1.0.3.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="27.0.2"
+        sha1="d0d5bb6c5298bfe249e5f9a6e6726b83025a2356">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\diary\build\intermediates\transforms\preDex\release\44.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\diary\libs\SocialSDK_QQ_Simplify.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="27.0.2"
+        sha1="979e86baea93da217d1d6dd8649d04a11624c183">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\diary\build\intermediates\transforms\preDex\release\52.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\ultra-ptr-1.0.11.aar\1015648d9878a954f40a237f6ef15d66\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="27.0.2"
+        sha1="a0bdf70123d26dd83d8462d602b3a83a41934cf6">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\diary\build\intermediates\transforms\preDex\release\17.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\BaseRecyclerViewAdapterHelper-2.9.29.aar\11eb58701482b01c4e36e0d397ae8ed4\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="1b4568573ee40bff82caeb2535ff403e9825238d">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\beautypic\build\intermediates\transforms\preDex\release\19.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\604cae28017f49bcdd709bf7a70cf4ad\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="27.0.2"
+        sha1="b62fdc4cfef174c1e456014195c83fa7de7dc041">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\diary\build\intermediates\transforms\preDex\release\46.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.8.0\5ea7af56cc7c567ed9856d99efb30740e9b17ff\okio-1.8.0.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="27.0.2"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\diary\build\intermediates\transforms\preDex\release\49.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.0.1.aar\fe491dc6071de55b62759ec4581dd964\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\beautypic\build\intermediates\transforms\preDex\release\5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\butterknife-8.4.0.aar\6b63006358d38a326b69b28c9896c611\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="27.0.2"
+        sha1="a07818a1ecabdb149998823429cce555af4b9cba">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\diary\build\intermediates\transforms\preDex\release\12.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.0.1.aar\0b43d9ef61e089a0f3f5bfb12afa065f\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\beautypic\build\intermediates\transforms\preDex\release\27.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife-annotations\8.4.0\ea392375cf9ff59234a82e7928a204215ccc98cd\butterknife-annotations-8.4.0.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ea392375cf9ff59234a82e7928a204215ccc98cd">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\beautypic\build\intermediates\transforms\preDex\release\32.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.1\support-annotations-25.0.1.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\beautypic\build\intermediates\transforms\preDex\release\33.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\beautypic\libs\umeng_social_net.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9a2fc3d30ce3cb03014a373b1d5c8b5795334271">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\beautypic\build\intermediates\transforms\preDex\release\3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="27.0.2"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\diary\build\intermediates\transforms\preDex\release\43.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife-annotations\8.4.0\ea392375cf9ff59234a82e7928a204215ccc98cd\butterknife-annotations-8.4.0.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="27.0.2"
+        sha1="ea392375cf9ff59234a82e7928a204215ccc98cd">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\diary\build\intermediates\transforms\preDex\release\32.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\8ce033a2f78d9c1ca16ae37426def3e4\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="27.0.2"
+        sha1="b4d6fbbb48b42dd03fd9c5a09b3b7a53266df6ed">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\diary\build\intermediates\transforms\preDex\release\8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\6590e651023721118ea272d15f7ce9ba\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="27.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\diary\build\intermediates\transforms\preDex\release\34.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\beautypic\libs\SocialSDK_QQ_Simplify.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="979e86baea93da217d1d6dd8649d04a11624c183">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\beautypic\build\intermediates\transforms\preDex\release\1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\okhttp3-integration-1.4.0.aar\cd64aca3fe8322021f2bccab3c2c1cb2\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="07a1832fdb6b44c0f4ec761ac3de02bfd3508269">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\beautypic\build\intermediates\transforms\preDex\release\15.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\1a6d806650b4849fa9341ebe7ffd3c36\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="27.0.2"
+        sha1="febe02d02cc81d6a29a8b68ef042502b638a5835">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\diary\build\intermediates\transforms\preDex\release\7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.3.0\2b802460eea20f8f2ad9c08c74e0f14718e88aa9\okhttp-3.3.0.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\beautypic\build\intermediates\transforms\preDex\release\34.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\303f8dc29b0ca13b2a3023605cb03aa2\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="27.0.2"
+        sha1="508f50705b4fde51a16259f29c854201a3044516">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\diary\build\intermediates\transforms\preDex\release\36.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\rxandroid-1.2.1.aar\9240fc6acbdb1341855543baf469ccb2\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="27.0.2"
+        sha1="5a2386ad9bfff580b206a7fe305cdccd00798159">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\diary\build\intermediates\transforms\preDex\release\14.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.0.1.aar\85fb9cb5bbc94b6616f94a68b7528026\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\beautypic\build\intermediates\transforms\preDex\release\22.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-fragment-25.0.1.aar\9add283fdb51875a5a971f3e8efae13a\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\beautypic\build\intermediates\transforms\preDex\release\20.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-compat-25.0.1.aar\3ce53ecbf2215b279bfa8375913d7af7\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\beautypic\build\intermediates\transforms\preDex\release\31.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android\Sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="27.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\diary\build\intermediates\transforms\preDex\release\30.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\BaseRecyclerViewAdapterHelper-2.9.30.aar\4f3b4fdbee323cd5f3d5992913b3e0f1\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="27.0.2"
+        sha1="fa61569ed84bc6979e529ec7d92bb4756b1c3572">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\diary\build\intermediates\transforms\preDex\release\23.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\modules-2\files-2.1\com.umeng.analytics\analytics\6.1.4\c1d30c2bbdce435b775cadca57df2098044a0f5e\analytics-6.1.4.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="27.0.2"
+        sha1="c1d30c2bbdce435b775cadca57df2098044a0f5e">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\diary\build\intermediates\transforms\preDex\release\13.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\f80624bc2cb33ca3ec28146904ab6eb4\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="27.0.2"
+        sha1="6f4138a4e065826cb044d49faea4cfd7191773d1">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\diary\build\intermediates\transforms\preDex\release\37.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.1.0\aa557d71ead91cbf26e0c316a0f593d168303309\converter-gson-2.1.0.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="27.0.2"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\diary\build\intermediates\transforms\preDex\release\9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.0.1.aar\369ce0ff8658c408c93b67729e307b48\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\beautypic\build\intermediates\transforms\preDex\release\7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\5360b99651b8af70d3bfd31f6b060439\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="27.0.2"
+        sha1="f97cf85b0fe70d37a705111dafa6b1b418ea1650">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\diary\build\intermediates\transforms\preDex\release\38.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\adapter-rxjava\2.1.0\693eddc23e87ab13f9cf5001707ce8e7e1d1ff01\adapter-rxjava-2.1.0.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="693eddc23e87ab13f9cf5001707ce8e7e1d1ff01">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\beautypic\build\intermediates\transforms\preDex\release\9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.0.1.aar\036ce78dce46b83953e1df945b7dad54\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\beautypic\build\intermediates\transforms\preDex\release\25.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\beautypic\libs\umeng_social_api.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b680704ac08a1203f713be45e7c95653bb7497fe">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\beautypic\build\intermediates\transforms\preDex\release\2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\diary\libs\umeng_social_net.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="27.0.2"
+        sha1="9a2fc3d30ce3cb03014a373b1d5c8b5795334271">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\diary\build\intermediates\transforms\preDex\release\53.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.0.1.aar\0b43d9ef61e089a0f3f5bfb12afa065f\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\beautypic\build\intermediates\transforms\preDex\release\26.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.1.0\2de7cd8b95b7021b1d597f049bcb422055119f2c\retrofit-2.1.0.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="27.0.2"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\diary\build\intermediates\transforms\preDex\release\11.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-compat-25.0.1.aar\3ce53ecbf2215b279bfa8375913d7af7\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\beautypic\build\intermediates\transforms\preDex\release\30.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\c1ddab6b25f0c57ca3ac59743f2195bf\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="27.0.2"
+        sha1="7efef32744ca4a436492d5cf28c08698cc2af256">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\diary\build\intermediates\transforms\preDex\release\35.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\378efc4768db275fb8acacb24ab2b52e\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="27.0.2"
+        sha1="a37fc31c5ceeaa4532a37358add1b189d8db4af1">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\diary\build\intermediates\transforms\preDex\release\2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\modules-2\files-2.1\io.reactivex\rxjava\1.2.1\4e4cfa4adc74521d5966799fa5ab70b733552f68\rxjava-1.2.1.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="4e4cfa4adc74521d5966799fa5ab70b733552f68">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\beautypic\build\intermediates\transforms\preDex\release\12.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\permissions4m-2.1.2-lib.aar\851b27e682bfda308612474c51c286d1\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="27.0.2"
+        sha1="30d3cfffd7baa4f93db492eb1b5fcd364d2bd3ae">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\diary\build\intermediates\transforms\preDex\release\26.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="27.0.2"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\diary\build\intermediates\transforms\preDex\release\21.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\modules-2\files-2.1\com.j256.ormlite\ormlite-android\4.48\afa06f539a4026c10b247386312aa67404b80a16\ormlite-android-4.48.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="27.0.2"
+        sha1="afa06f539a4026c10b247386312aa67404b80a16">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\diary\build\intermediates\transforms\preDex\release\28.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\0df1a9a76df87d347f00bb3ff699f5bb\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="27.0.2"
+        sha1="b12cd9c87c3dfb012a911b6e38d2444ed0a65e1f">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\diary\build\intermediates\transforms\preDex\release\6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\e0475acaa9538f8fdf01776a21c3b25f\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="27.0.2"
+        sha1="58b12bdb21a84f22e0dc3b047aeceb0a546b1b44">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\diary\build\intermediates\transforms\preDex\release\31.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\adapter-rxjava\2.1.0\693eddc23e87ab13f9cf5001707ce8e7e1d1ff01\adapter-rxjava-2.1.0.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="27.0.2"
+        sha1="693eddc23e87ab13f9cf5001707ce8e7e1d1ff01">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\diary\build\intermediates\transforms\preDex\release\10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\beautypic\build\intermediates\transforms\preDex\release\17.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\beautypic\build\intermediates\transforms\preDex\release\35.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\modules-2\files-2.1\android.arch.core\common\1.0.0\a2d487452376193fc8c103dd2b9bd5f2b1b44563\common-1.0.0.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="27.0.2"
+        sha1="a2d487452376193fc8c103dd2b9bd5f2b1b44563">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\diary\build\intermediates\transforms\preDex\release\48.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\7760fc8927bf642c6c8dbf272533c843\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="27.0.2"
+        sha1="f428e2fbc9ed0b297e3a3f420e51e6982f66822d">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\diary\build\intermediates\transforms\preDex\release\29.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\rxandroid-1.2.0.aar\125a8f9364228a5dcde8c951f9b5dba2\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="927e8ef5711b115b65b2f35495d77352be2b3c09">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\beautypic\build\intermediates\transforms\preDex\release\11.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\logging-interceptor\3.1.2\a1b4b8e4dc5f7bfa9186e79f9e267c1539a847b0\logging-interceptor-3.1.2.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a1b4b8e4dc5f7bfa9186e79f9e267c1539a847b0">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\beautypic\build\intermediates\transforms\preDex\release\13.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\library-2.0.2.aar\308cfa4178c663d9f2d1d74c31fda318\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="27.0.2"
+        sha1="ea1fde77d2e5267a669f3a0015c924c80c7e7735">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\diary\build\intermediates\transforms\preDex\release\4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\beautypic\libs\umeng_social_tool.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="87ef211d4ef0c257c7d040fbaa411832330eb9aa">
+        <dex dex="C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\beautypic\build\intermediates\transforms\preDex\release\4.jar" />
+    </item>
+
+</items>

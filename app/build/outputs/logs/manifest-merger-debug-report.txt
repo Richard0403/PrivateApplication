@@ -1,0 +1,110 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\app\src\main\AndroidManifest.xml:2:1-20:12
+INJECTED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\app\src\main\AndroidManifest.xml:2:1-20:12
+INJECTED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\app\src\main\AndroidManifest.xml:2:1-20:12
+INJECTED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\app\src\main\AndroidManifest.xml:2:1-20:12
+MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\appcompat-v7-24.2.1.aar\e2eceadab7cc6913fc025dc551c2d6a1\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-v4:24.2.1] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-v4-24.2.1.aar\1cf66ad681798cb9ba5e017e9e5d5710\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:animated-vector-drawable:24.2.1] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-24.2.1.aar\46414f11ddb40bbd217f96f8fe8d6619\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-vector-drawable:24.2.1] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-24.2.1.aar\e7a20e869cc17b782d53d5dbd4c69030\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:support-fragment:24.2.1] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-fragment-24.2.1.aar\703faf7f6d55d75d756d5bd0fc299477\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-media-compat:24.2.1] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-media-compat-24.2.1.aar\b470718c14bd8723c3f55767c185d5a0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-utils:24.2.1] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-core-utils-24.2.1.aar\3a2981f7076be6aad697c81bdf106673\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-ui:24.2.1] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-core-ui-24.2.1.aar\b65604cde8ebcb066c43bb5107bdbde2\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-compat:24.2.1] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-compat-24.2.1.aar\8f471a7557a2915a9c2c7e375ea2c4a6\AndroidManifest.xml:17:1-27:12
+INJECTED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\app\src\main\AndroidManifest.xml:2:1-20:12
+INJECTED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\app\src\main\AndroidManifest.xml:2:1-20:12
+INJECTED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\app\src\main\AndroidManifest.xml:2:1-20:12
+	package
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\app\src\main\AndroidManifest.xml:3:5-27
+		INJECTED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\app\src\main\AndroidManifest.xml:2:1-20:12
+		INJECTED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\app\src\main\AndroidManifest.xml:2:1-20:12
+		INJECTED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\app\src\main\AndroidManifest.xml:5:5-18:19
+MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\appcompat-v7-24.2.1.aar\e2eceadab7cc6913fc025dc551c2d6a1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\appcompat-v7-24.2.1.aar\e2eceadab7cc6913fc025dc551c2d6a1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.2.1] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-v4-24.2.1.aar\1cf66ad681798cb9ba5e017e9e5d5710\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.2.1] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-v4-24.2.1.aar\1cf66ad681798cb9ba5e017e9e5d5710\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.2.1] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-24.2.1.aar\46414f11ddb40bbd217f96f8fe8d6619\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.2.1] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-24.2.1.aar\46414f11ddb40bbd217f96f8fe8d6619\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.2.1] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-24.2.1.aar\e7a20e869cc17b782d53d5dbd4c69030\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-vector-drawable:24.2.1] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-24.2.1.aar\e7a20e869cc17b782d53d5dbd4c69030\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-fragment:24.2.1] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-fragment-24.2.1.aar\703faf7f6d55d75d756d5bd0fc299477\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:24.2.1] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-fragment-24.2.1.aar\703faf7f6d55d75d756d5bd0fc299477\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.1] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-media-compat-24.2.1.aar\b470718c14bd8723c3f55767c185d5a0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.1] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-media-compat-24.2.1.aar\b470718c14bd8723c3f55767c185d5a0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.1] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-core-utils-24.2.1.aar\3a2981f7076be6aad697c81bdf106673\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.1] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-core-utils-24.2.1.aar\3a2981f7076be6aad697c81bdf106673\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.1] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-core-ui-24.2.1.aar\b65604cde8ebcb066c43bb5107bdbde2\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.1] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-core-ui-24.2.1.aar\b65604cde8ebcb066c43bb5107bdbde2\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.1] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-compat-24.2.1.aar\8f471a7557a2915a9c2c7e375ea2c4a6\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.1] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-compat-24.2.1.aar\8f471a7557a2915a9c2c7e375ea2c4a6\AndroidManifest.xml:25:5-20
+	android:supportsRtl
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\app\src\main\AndroidManifest.xml:9:9-35
+	android:label
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\app\src\main\AndroidManifest.xml:8:9-41
+	android:icon
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\app\src\main\AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\app\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\app\src\main\AndroidManifest.xml:10:9-40
+activity#com.yrjz.app.MainActivity
+ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\app\src\main\AndroidManifest.xml:11:9-17:20
+	android:name
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\app\src\main\AndroidManifest.xml:11:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\app\src\main\AndroidManifest.xml:12:13-16:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\app\src\main\AndroidManifest.xml:13:17-69
+	android:name
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\app\src\main\AndroidManifest.xml:13:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\app\src\main\AndroidManifest.xml:15:17-77
+	android:name
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\app\src\main\AndroidManifest.xml:15:27-74
+uses-sdk
+INJECTED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\appcompat-v7-24.2.1.aar\e2eceadab7cc6913fc025dc551c2d6a1\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\appcompat-v7-24.2.1.aar\e2eceadab7cc6913fc025dc551c2d6a1\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:24.2.1] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-v4-24.2.1.aar\1cf66ad681798cb9ba5e017e9e5d5710\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:24.2.1] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-v4-24.2.1.aar\1cf66ad681798cb9ba5e017e9e5d5710\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:animated-vector-drawable:24.2.1] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-24.2.1.aar\46414f11ddb40bbd217f96f8fe8d6619\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:24.2.1] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-24.2.1.aar\46414f11ddb40bbd217f96f8fe8d6619\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.2.1] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-24.2.1.aar\e7a20e869cc17b782d53d5dbd4c69030\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-vector-drawable:24.2.1] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-24.2.1.aar\e7a20e869cc17b782d53d5dbd4c69030\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-fragment:24.2.1] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-fragment-24.2.1.aar\703faf7f6d55d75d756d5bd0fc299477\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:24.2.1] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-fragment-24.2.1.aar\703faf7f6d55d75d756d5bd0fc299477\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:24.2.1] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-media-compat-24.2.1.aar\b470718c14bd8723c3f55767c185d5a0\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:24.2.1] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-media-compat-24.2.1.aar\b470718c14bd8723c3f55767c185d5a0\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:24.2.1] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-core-utils-24.2.1.aar\3a2981f7076be6aad697c81bdf106673\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:24.2.1] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-core-utils-24.2.1.aar\3a2981f7076be6aad697c81bdf106673\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:24.2.1] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-core-ui-24.2.1.aar\b65604cde8ebcb066c43bb5107bdbde2\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:24.2.1] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-core-ui-24.2.1.aar\b65604cde8ebcb066c43bb5107bdbde2\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:24.2.1] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-compat-24.2.1.aar\8f471a7557a2915a9c2c7e375ea2c4a6\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:24.2.1] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-compat-24.2.1.aar\8f471a7557a2915a9c2c7e375ea2c4a6\AndroidManifest.xml:21:5-23:58
+INJECTED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:24.2.1] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\appcompat-v7-24.2.1.aar\e2eceadab7cc6913fc025dc551c2d6a1\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\app\src\main\AndroidManifest.xml

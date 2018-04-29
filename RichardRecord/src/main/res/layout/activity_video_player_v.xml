@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+
+
+    <RelativeLayout
+        android:id="@+id/rl_videoview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+         >
+
+        <TextureView
+            android:id="@+id/surfaceView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/iv_surfaceView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/iv_play"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/ic_play"
+            android:visibility="gone" />
+    </RelativeLayout>
+    <!-- title -->
+
+    <include
+        android:id="@+id/ic_header"
+        android:layout_width="fill_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentTop="true"
+        layout="@layout/common_head_transparent" />
+    <RelativeLayout
+        android:id="@+id/bottom_relative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_gredient_title_black"
+        android:layout_alignParentBottom="true" >
+
+        <SeekBar
+            android:id="@+id/skbProgress"
+            style="@style/CustomSeekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:max="100"
+            android:padding="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+        <LinearLayout
+            android:id="@+id/rl_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/skbProgress"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="2dp" >
+
+            <RelativeLayout
+                android:layout_width="42dp"
+                android:layout_height="36dp"
+                android:layout_marginLeft="10dp" >
+
+                <ImageView
+                    android:id="@+id/iv_btn_play"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_centerInParent="true"
+                    android:src="@mipmap/btn_player_start" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp" >
+
+                <TextView
+                    android:id="@+id/tv_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="00:00"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/tv_time_split"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/tv_time"
+                    android:text="/"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/tv_total_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/tv_time_split"
+                    android:text="10"
+                    android:textColor="@color/white" />
+            </RelativeLayout>
+            
+             <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+<!--                 <TextView
+                    android:id="@+id/tv_add_to_pic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true" 
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:text="添加到相册"
+                    android:textColor="@color/solid_light_grey" />
+
+                <TextView
+                    android:id="@+id/tv_split"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@id/tv_add_to_pic"
+                    android:layout_marginRight="5dp"
+                    android:text="|"
+                    android:textColor="@color/solid_light_grey"
+                    android:layout_centerVertical="true" /> -->
+                
+                            <include
+                android:id="@+id/ic_video_operate"
+                android:layout_width="148dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                layout="@layout/layout_video_operate" >
+            </include>
+            </RelativeLayout>
+            
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

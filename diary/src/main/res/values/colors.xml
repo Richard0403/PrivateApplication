@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#D7DCF2</color>
+    <color name="colorPrimaryDark">#A8ADC1</color>
+    <color name="colorAccent">#3F51B5</color>
+
+    <color name="color_theme">#D7DCF2</color>
+    <color name="color_theme1">#7F47DD</color>
+    <color name="color_theme2">#FBB03B</color>
+    <color name="color_theme3">#868A8B</color>
+    <color name="color_theme4">#3F51B5</color>
+    <color name="colorBody">#FFFFFF</color>
+    <color name="colorContent">#000000</color>
+
+    <color name="text_dark">#454545</color>
+    <color name="white">#FFFFFF</color>
+    <color name="blue">#0d7aff</color>
+    <color name="orange">#ffffa248</color>
+    <color name="transparent">#00000000</color>
+    <color name="black">#242834</color>
+    <color name="green">#C3EBC9</color>
+    <color name="yellow">#F5F0DD</color>
+    <color name="light_grey">#CCCCCC</color>
+    <color name="light_grey_f9">#f9f9f9</color>
+    <color name="cursor_handle_color">#0d7aff</color>
+    <color name="selected_blue">#afe1f4</color>
+
+    <color name="gold_yellow">#ffffcb2b</color>
+
+    <color name="chapter_content_day">#3B3220</color>
+    <color name="chapter_title_day">#837B63</color>
+    <color name="txt_deep">#333333</color>
+    <color name="txt_yellow">#D58D11</color>
+    <color name="txt_light_grey">#999999</color>
+    <color name="txt_middle_grey">#666666</color>
+    <color name="txt_grey_8A">#8A8A8A</color>
+    <color name="txt_grey_8A_50">#7f8A8A8A</color>
+    <color name="txt_red">#FF4242</color>
+    <color name="line_grey">#626262</color>
+    <color name="line_light_grey">#eeeeee</color>
+    <color name="bg_light_grey">#f9f9f9</color>
+
+    <color name="bg_silver_grey">#c8c8c8</color>
+    <color name="bg_search_grey">#d2d2d2</color>
+
+    <color name="txt_red_package_tips">#51ADFE</color>
+    <color name="bg_txt_challenge_book_name">#80000000</color>
+    <color name="bg_btn_cancel">#FF7878</color>
+    <color name="bg_revive">#23273A</color>
+</resources>

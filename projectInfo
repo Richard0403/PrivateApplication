@@ -1,0 +1,9 @@
+1. keystore统一用工程下的XiaoBoKeyStore.jks
+
+2. alia name 选stepcount 密码WZG13145
+
+开发sha1  57:5A:BC:7C:8A:D3:8B:BC:F7:F7:82:99:17:06:3D:D8:F4:98:D2:8E
+正式sha1  B9:8B:FE:F3:58:D9:1D:32:FD:E4:C5:FE:C6:FC:0D:97:C0:0F:92:ED
+
+sha1 查看方法 开发keytool -list -v -keystore ~/.android/debug.keystore -alias androiddebugkey -storepass android -keypass android
+             正式keytool -list -v -keystore yourKeyStoreFile

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_recording"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.richard.record.recoder.RecordingActivity">
+
+
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <TextureView
+                android:id="@+id/surfaceView"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:visibility="visible" />
+        </LinearLayout>
+
+        <!-- title -->
+
+        <include
+            android:id="@+id/ic_header"
+            android:layout_height="35dp"
+            android:layout_width="match_parent"
+            android:layout_gravity="bottom"
+            layout="@layout/common_head_transparent" />
+
+        <RelativeLayout
+            android:id="@+id/layout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <TextView
+                android:id="@+id/voice_status"
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="已启动录像"
+                android:textColor="#ffffff"
+                android:textSize="12sp" />
+
+            <!--
+                 <Button
+                android:id="@+id/stopbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/recordbutton"
+                android:layout_marginRight="30dp"
+                android:layout_toLeftOf="@id/recordbutton"
+                android:enabled="false"
+                android:onClick="record"
+                android:text="@string/stopbutton" />
+            -->
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/timeer"
+            android:layout_width="fill_parent"
+            android:layout_height="35dp" >
+
+            <TextView
+                android:id="@+id/tv_timer"
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="#ffffff"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:gravity="bottom"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/recordbutton"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:onClick="record"
+                android:src="@mipmap/btn_start"
+                android:contentDescription="@null"/>
+            <!--<ImageView-->
+                <!--android:id="@+id/wave1"-->
+                <!--android:layout_width="@dimen/x68"-->
+                <!--android:layout_height="@dimen/x68"-->
+                <!--android:layout_marginRight="20dp"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:layout_toLeftOf="@id/recordbutton"-->
+                <!--android:contentDescription="@null"-->
+                <!--android:src="@drawable/icon_sos_wave" />-->
+            <!--<ImageView-->
+                <!--android:id="@+id/wave2"-->
+                <!--android:layout_width="@dimen/x68"-->
+                <!--android:layout_height="@dimen/x68"-->
+                <!--android:layout_marginRight="20dp"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:layout_toLeftOf="@id/recordbutton"-->
+                <!--android:contentDescription="@null"-->
+                <!--android:src="@drawable/icon_sos_wave" />-->
+            <!--<ImageView-->
+                <!--android:id="@+id/wave3"-->
+                <!--android:layout_width="@dimen/x68"-->
+                <!--android:layout_height="@dimen/x68"-->
+                <!--android:layout_marginRight="20dp"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:layout_toLeftOf="@id/recordbutton"-->
+                <!--android:contentDescription="@null"-->
+                <!--android:src="@drawable/icon_sos_wave" />-->
+
+            <!--<com.beehoo.travel.ui.widget.SosView-->
+                <!--android:id="@+id/iv_sos"-->
+                <!--android:layout_width="@dimen/x68"-->
+                <!--android:layout_height="@dimen/x68"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:layout_marginRight="20dp"-->
+                <!--android:layout_toLeftOf="@+id/recordbutton"-->
+                <!--android:contentDescription="@null"-->
+                <!--android:padding="@dimen/x10"-->
+                <!--android:src="@drawable/icon_sos_vedio" />-->
+
+        </RelativeLayout>
+
+
+    </FrameLayout>
+
+</RelativeLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:id="@+id/rl_header"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@color/light_grey">
+        
+        <ImageView 
+            android:id="@+id/iv_back"
+            android:layout_height="20dp"
+            android:layout_width="25dp"
+            android:padding="2dp"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/ic_back"/>
+        
+         <Button 
+            android:id="@+id/searchButton"
+            android:layout_height="0dp"
+            android:layout_width="0dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            android:text="搜索"
+            android:textColor="@color/white"/>
+        
+        
+        <EditText 
+            android:id="@+id/et_search"
+            android:layout_height="40dp"
+            android:layout_width="match_parent"
+            android:layout_toRightOf="@id/iv_back"
+            android:layout_toLeftOf="@id/searchButton"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/middle_grey"
+            android:layout_centerVertical="true"
+            android:padding="5dp"/>
+		
+       
+      
+    </RelativeLayout>
+    
+    <ListView 
+        android:id="@+id/lv_text_tip"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:dividerHeight="1px"
+        android:background="@color/white"
+        android:layout_below="@id/rl_header"
+        android:divider="@color/deep_black"></ListView>
+    
+   
+
+    
+
+
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- 边缘线的宽度和颜色 -->
+<!--     <stroke
+        android:width="1px"
+        android:color="#7d7a7a" /> -->
+    <gradient
+        android:angle="0"
+        android:endColor="@color/black_end"
+        android:startColor="@color/black_start" />    
+    
+
+</shape>
