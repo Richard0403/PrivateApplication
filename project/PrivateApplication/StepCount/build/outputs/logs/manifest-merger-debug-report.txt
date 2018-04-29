@@ -1,0 +1,376 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:2:1-127:12
+INJECTED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:2:1-127:12
+INJECTED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:2:1-127:12
+INJECTED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:2:1-127:12
+MERGED from [com.android.support:recyclerview-v7:25.1.0] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.1.0.aar\1fe2210f75dca820c52f9eeba31b12a3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.yancy.imageselector:imageselector:1.3.3] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\imageselector-1.3.3.aar\1a9303d4de07d1fadcee1804aae3d480\AndroidManifest.xml:2:1-20:12
+MERGED from [com.android.support:appcompat-v7:25.1.0] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.1.0.aar\a77e556ce06652a7f2062a9b641b4b0a\AndroidManifest.xml:17:1-27:12
+MERGED from [io.reactivex:rxandroid:1.1.0] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\rxandroid-1.1.0.aar\a9817248f720da63f8011be1acdea75f\AndroidManifest.xml:15:1-21:12
+MERGED from [jp.wasabeef:glide-transformations:1.4.0] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\glide-transformations-1.4.0.aar\f550f8c9f7cbdc89b7336ec9ff2d618c\AndroidManifest.xml:2:1-12:12
+MERGED from [com.github.bumptech.glide:okhttp3-integration:1.4.0] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\okhttp3-integration-1.4.0.aar\cd64aca3fe8322021f2bccab3c2c1cb2\AndroidManifest.xml:2:1-17:12
+MERGED from [in.srain.cube:ultra-ptr:1.0.11] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\ultra-ptr-1.0.11.aar\1015648d9878a954f40a237f6ef15d66\AndroidManifest.xml:2:1-13:12
+MERGED from [com.jakewharton:butterknife:8.4.0] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\butterknife-8.4.0.aar\6b63006358d38a326b69b28c9896c611\AndroidManifest.xml:2:1-7:12
+MERGED from [com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.30] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\BaseRecyclerViewAdapterHelper-2.9.30.aar\4f3b4fdbee323cd5f3d5992913b3e0f1\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-v4:25.1.0] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-v4-25.1.0.aar\0675f8cb48fb3f7fa1187f268186af0c\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-fragment:25.1.0] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-fragment-25.1.0.aar\9a8f9f5d58f29e92e7e18d2b92eec79c\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-ui:25.1.0] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.1.0.aar\87180b85699e95fb307e2f23eb85b774\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:animated-vector-drawable:25.1.0] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.1.0.aar\c7e0988c5420ef4184a2097bb692f021\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-vector-drawable:25.1.0] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.1.0.aar\ac2967cb5017a171e002f1ab3d4e55c4\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:support-media-compat:25.1.0] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.1.0.aar\9f1d1a276899342002c178893094e1cd\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-utils:25.1.0] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.1.0.aar\b49c58374caf4e2bc8d3cc5281960a32\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-compat:25.1.0] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-compat-25.1.0.aar\e570a8e8285e046d0178b6481977a241\AndroidManifest.xml:17:1-27:12
+INJECTED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:2:1-127:12
+INJECTED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:2:1-127:12
+INJECTED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:2:1-127:12
+	package
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:3:5-36
+		INJECTED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:2:1-127:12
+		INJECTED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:2:1-127:12
+		INJECTED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:6:22-76
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:8:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:10:5-76
+	android:name
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:10:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:12:5-76
+	android:name
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:12:22-73
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:14:5-67
+	android:name
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:14:22-64
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:16:5-75
+	android:name
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:16:22-72
+uses-permission#android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:18:5-89
+	android:name
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:18:22-86
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:20:5-80
+	android:name
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:20:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:21:5-81
+	android:name
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:21:22-78
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:22:5-65
+	android:name
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:22:22-62
+uses-permission#android.permission.INTERACT_ACROSS_USERS_FULL
+ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:23:5-85
+	android:name
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:23:22-82
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:24:22-65
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:25:5-66
+	android:name
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:25:22-63
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:26:5-73
+	android:name
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:26:22-70
+uses-feature#android.hardware.sensor.accelerometer
+ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:28:5-74
+	android:name
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:28:19-71
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:30:5-81
+	android:name
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:30:22-78
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:31:5-84
+	android:name
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:31:22-81
+uses-permission#android.permission.READ_LOGS
+ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:32:5-68
+	android:name
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:32:22-65
+uses-permission#android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS
+ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:33:5-95
+	android:name
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:33:22-92
+uses-feature#android.hardware.sensor.stepcounter
+ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:35:5-37:35
+	android:required
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:37:9-32
+	android:name
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:36:9-59
+uses-feature#android.hardware.sensor.stepdetector
+ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:38:5-40:35
+	android:required
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:40:9-32
+	android:name
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:39:9-60
+application
+ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:42:5-125:19
+MERGED from [com.yancy.imageselector:imageselector:1.3.3] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\imageselector-1.3.3.aar\1a9303d4de07d1fadcee1804aae3d480\AndroidManifest.xml:11:5-18:19
+MERGED from [com.yancy.imageselector:imageselector:1.3.3] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\imageselector-1.3.3.aar\1a9303d4de07d1fadcee1804aae3d480\AndroidManifest.xml:11:5-18:19
+MERGED from [com.android.support:appcompat-v7:25.1.0] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.1.0.aar\a77e556ce06652a7f2062a9b641b4b0a\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:25.1.0] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.1.0.aar\a77e556ce06652a7f2062a9b641b4b0a\AndroidManifest.xml:25:5-20
+MERGED from [com.github.bumptech.glide:okhttp3-integration:1.4.0] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\okhttp3-integration-1.4.0.aar\cd64aca3fe8322021f2bccab3c2c1cb2\AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.bumptech.glide:okhttp3-integration:1.4.0] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\okhttp3-integration-1.4.0.aar\cd64aca3fe8322021f2bccab3c2c1cb2\AndroidManifest.xml:11:5-15:19
+MERGED from [in.srain.cube:ultra-ptr:1.0.11] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\ultra-ptr-1.0.11.aar\1015648d9878a954f40a237f6ef15d66\AndroidManifest.xml:11:5-20
+MERGED from [in.srain.cube:ultra-ptr:1.0.11] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\ultra-ptr-1.0.11.aar\1015648d9878a954f40a237f6ef15d66\AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:support-v4:25.1.0] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-v4-25.1.0.aar\0675f8cb48fb3f7fa1187f268186af0c\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:25.1.0] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-v4-25.1.0.aar\0675f8cb48fb3f7fa1187f268186af0c\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.1.0] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-fragment-25.1.0.aar\9a8f9f5d58f29e92e7e18d2b92eec79c\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.1.0] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-fragment-25.1.0.aar\9a8f9f5d58f29e92e7e18d2b92eec79c\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.0] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.1.0.aar\87180b85699e95fb307e2f23eb85b774\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.0] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.1.0.aar\87180b85699e95fb307e2f23eb85b774\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.1.0] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.1.0.aar\c7e0988c5420ef4184a2097bb692f021\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.1.0] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.1.0.aar\c7e0988c5420ef4184a2097bb692f021\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.1.0] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.1.0.aar\ac2967cb5017a171e002f1ab3d4e55c4\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-vector-drawable:25.1.0] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.1.0.aar\ac2967cb5017a171e002f1ab3d4e55c4\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-media-compat:25.1.0] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.1.0.aar\9f1d1a276899342002c178893094e1cd\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.0] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.1.0.aar\9f1d1a276899342002c178893094e1cd\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.0] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.1.0.aar\b49c58374caf4e2bc8d3cc5281960a32\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.0] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.1.0.aar\b49c58374caf4e2bc8d3cc5281960a32\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-compat-25.1.0.aar\e570a8e8285e046d0178b6481977a241\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-compat-25.1.0.aar\e570a8e8285e046d0178b6481977a241\AndroidManifest.xml:25:5-20
+	android:supportsRtl
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:47:9-35
+	android:label
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:46:9-41
+	android:icon
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:45:9-43
+	android:allowBackup
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:44:9-35
+	android:theme
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:48:9-40
+	android:name
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:43:9-33
+activity#com.richard.stepcount.view.main.MainActivity
+ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:49:9-55:20
+	android:name
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:49:19-57
+activity#com.richard.stepcount.view.home.activity.LoginActivity
+ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:56:9-62:20
+	android:name
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:56:19-67
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:57:13-61:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:58:17-68
+	android:name
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:58:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:60:17-76
+	android:name
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:60:27-74
+meta-data#com.baidu.lbsapi.API_KEY
+ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:63:9-65:64
+	android:value
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:65:13-61
+	android:name
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:64:13-52
+service#com.richard.stepcount.counter.StepService
+ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:67:9-81:19
+	android:process
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:71:13-43
+	android:exported
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:69:13-36
+	android:priority
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:70:13-36
+	android:name
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:68:13-48
+intent-filter#android.intent.action.ACTION_POWER_CONNECTED+android.intent.action.ACTION_POWER_DISCONNECTED+android.intent.action.ACTION_TIME_TICK+android.intent.action.BOOT_COMPLETED+android.intent.action.DATE_CHANGED+android.intent.action.MEDIA_MOUNTED+android.intent.action.USER_PRESENT
+ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:72:13-80:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:73:17-79
+	android:name
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:73:25-76
+action#android.intent.action.DATE_CHANGED
+ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:74:17-77
+	android:name
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:74:25-74
+action#android.intent.action.MEDIA_MOUNTED
+ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:75:17-78
+	android:name
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:75:25-75
+action#android.intent.action.USER_PRESENT
+ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:76:17-77
+	android:name
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:76:25-74
+action#android.intent.action.ACTION_TIME_TICK
+ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:77:17-81
+	android:name
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:77:25-78
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:78:17-87
+	android:name
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:78:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:79:17-90
+	android:name
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:79:25-87
+service#com.baidu.trace.LBSTraceService
+ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:82:9-86:44
+	android:process
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:86:13-41
+	android:enabled
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:84:13-35
+	android:exported
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:85:13-36
+	android:name
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:83:13-59
+receiver#com.richard.stepcount.counter.DateChangeReciver
+ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:88:9-93:20
+	android:name
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:88:19-60
+intent-filter#android.intent.action.DATE_CHANGED+android.intent.action.TIMEZONE_CHANGED
+ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:89:13-92:29
+action#android.intent.action.TIMEZONE_CHANGED
+ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:90:17-81
+	android:name
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:90:25-78
+meta-data#UMENG_APPKEY
+ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:96:9-99:21
+	android:value
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:98:17-57
+	android:name
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:97:17-44
+meta-data#UMENG_CHANNEL
+ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:100:9-77
+	android:value
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:100:20-46
+	android:name
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:100:47-75
+activity#com.umeng.qq.tencent.AuthActivity
+ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:102:9-114:20
+	android:launchMode
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:104:17-48
+	android:noHistory
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:105:17-41
+	android:name
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:103:17-65
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:106:13-113:29
+action#android.intent.action.VIEW
+ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:107:17-68
+	android:name
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:107:25-66
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:109:17-75
+	android:name
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:109:27-73
+category#android.intent.category.BROWSABLE
+ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:110:17-77
+	android:name
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:110:27-75
+data
+ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:112:17-59
+	android:scheme
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:112:23-57
+activity#com.umeng.qq.tencent.AssistActivity
+ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:115:9-119:78
+	android:screenOrientation
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:118:17-53
+	android:configChanges
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:117:17-78
+	android:theme
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:119:17-76
+	android:name
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:116:17-67
+activity#com.richard.stepcount.trace.TraceIntroduceActivity
+ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:121:9-75
+	android:name
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:121:19-63
+activity#com.richard.stepcount.view.richedit.RichEditActivity
+ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:122:9-123:55
+	android:launchMode
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:123:13-43
+	android:name
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:122:19-65
+activity#com.richard.stepcount.view.base.ImageActivity
+ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:124:9-70
+	android:name
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml:124:19-58
+uses-sdk
+INJECTED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml
+INJECTED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml
+MERGED from [com.android.support:recyclerview-v7:25.1.0] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.1.0.aar\1fe2210f75dca820c52f9eeba31b12a3\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.1.0] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.1.0.aar\1fe2210f75dca820c52f9eeba31b12a3\AndroidManifest.xml:20:5-43
+MERGED from [com.yancy.imageselector:imageselector:1.3.3] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\imageselector-1.3.3.aar\1a9303d4de07d1fadcee1804aae3d480\AndroidManifest.xml:7:5-9:41
+MERGED from [com.yancy.imageselector:imageselector:1.3.3] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\imageselector-1.3.3.aar\1a9303d4de07d1fadcee1804aae3d480\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:25.1.0] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.1.0.aar\a77e556ce06652a7f2062a9b641b4b0a\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.1.0] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.1.0.aar\a77e556ce06652a7f2062a9b641b4b0a\AndroidManifest.xml:21:5-23:78
+MERGED from [io.reactivex:rxandroid:1.1.0] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\rxandroid-1.1.0.aar\a9817248f720da63f8011be1acdea75f\AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex:rxandroid:1.1.0] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\rxandroid-1.1.0.aar\a9817248f720da63f8011be1acdea75f\AndroidManifest.xml:19:5-43
+MERGED from [jp.wasabeef:glide-transformations:1.4.0] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\glide-transformations-1.4.0.aar\f550f8c9f7cbdc89b7336ec9ff2d618c\AndroidManifest.xml:8:5-10:41
+MERGED from [jp.wasabeef:glide-transformations:1.4.0] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\glide-transformations-1.4.0.aar\f550f8c9f7cbdc89b7336ec9ff2d618c\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.bumptech.glide:okhttp3-integration:1.4.0] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\okhttp3-integration-1.4.0.aar\cd64aca3fe8322021f2bccab3c2c1cb2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bumptech.glide:okhttp3-integration:1.4.0] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\okhttp3-integration-1.4.0.aar\cd64aca3fe8322021f2bccab3c2c1cb2\AndroidManifest.xml:7:5-9:41
+MERGED from [in.srain.cube:ultra-ptr:1.0.11] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\ultra-ptr-1.0.11.aar\1015648d9878a954f40a237f6ef15d66\AndroidManifest.xml:7:5-9:41
+MERGED from [in.srain.cube:ultra-ptr:1.0.11] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\ultra-ptr-1.0.11.aar\1015648d9878a954f40a237f6ef15d66\AndroidManifest.xml:7:5-9:41
+MERGED from [com.jakewharton:butterknife:8.4.0] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\butterknife-8.4.0.aar\6b63006358d38a326b69b28c9896c611\AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.4.0] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\butterknife-8.4.0.aar\6b63006358d38a326b69b28c9896c611\AndroidManifest.xml:5:5-43
+MERGED from [com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.30] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\BaseRecyclerViewAdapterHelper-2.9.30.aar\4f3b4fdbee323cd5f3d5992913b3e0f1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.30] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\BaseRecyclerViewAdapterHelper-2.9.30.aar\4f3b4fdbee323cd5f3d5992913b3e0f1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:25.1.0] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-v4-25.1.0.aar\0675f8cb48fb3f7fa1187f268186af0c\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.1.0] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-v4-25.1.0.aar\0675f8cb48fb3f7fa1187f268186af0c\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.1.0] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-fragment-25.1.0.aar\9a8f9f5d58f29e92e7e18d2b92eec79c\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.1.0] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-fragment-25.1.0.aar\9a8f9f5d58f29e92e7e18d2b92eec79c\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:25.1.0] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.1.0.aar\87180b85699e95fb307e2f23eb85b774\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.1.0] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.1.0.aar\87180b85699e95fb307e2f23eb85b774\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:animated-vector-drawable:25.1.0] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.1.0.aar\c7e0988c5420ef4184a2097bb692f021\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.1.0] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.1.0.aar\c7e0988c5420ef4184a2097bb692f021\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.1.0] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.1.0.aar\ac2967cb5017a171e002f1ab3d4e55c4\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-vector-drawable:25.1.0] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.1.0.aar\ac2967cb5017a171e002f1ab3d4e55c4\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-media-compat:25.1.0] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.1.0.aar\9f1d1a276899342002c178893094e1cd\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.1.0] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.1.0.aar\9f1d1a276899342002c178893094e1cd\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.1.0] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.1.0.aar\b49c58374caf4e2bc8d3cc5281960a32\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.1.0] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.1.0.aar\b49c58374caf4e2bc8d3cc5281960a32\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.1.0] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-compat-25.1.0.aar\e570a8e8285e046d0178b6481977a241\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.1.0] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\support-compat-25.1.0.aar\e570a8e8285e046d0178b6481977a241\AndroidManifest.xml:21:5-23:58
+INJECTED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml
+INJECTED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.1.0] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.1.0.aar\a77e556ce06652a7f2062a9b641b4b0a\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml
+		ADDED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\xiaou\Desktop\JavaLearn\PrivateApplication\StepCount\src\main\AndroidManifest.xml
+activity#com.yancy.imageselector.ImageSelectorActivity
+ADDED from [com.yancy.imageselector:imageselector:1.3.3] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\imageselector-1.3.3.aar\1a9303d4de07d1fadcee1804aae3d480\AndroidManifest.xml:14:9-17:57
+	android:configChanges
+		ADDED from [com.yancy.imageselector:imageselector:1.3.3] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\imageselector-1.3.3.aar\1a9303d4de07d1fadcee1804aae3d480\AndroidManifest.xml:16:13-59
+	android:theme
+		ADDED from [com.yancy.imageselector:imageselector:1.3.3] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\imageselector-1.3.3.aar\1a9303d4de07d1fadcee1804aae3d480\AndroidManifest.xml:17:13-54
+	android:name
+		ADDED from [com.yancy.imageselector:imageselector:1.3.3] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\imageselector-1.3.3.aar\1a9303d4de07d1fadcee1804aae3d480\AndroidManifest.xml:15:13-73
+meta-data#com.bumptech.glide.integration.okhttp3.OkHttpGlideModule
+ADDED from [com.github.bumptech.glide:okhttp3-integration:1.4.0] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\okhttp3-integration-1.4.0.aar\cd64aca3fe8322021f2bccab3c2c1cb2\AndroidManifest.xml:12:9-14:43
+	android:value
+		ADDED from [com.github.bumptech.glide:okhttp3-integration:1.4.0] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\okhttp3-integration-1.4.0.aar\cd64aca3fe8322021f2bccab3c2c1cb2\AndroidManifest.xml:14:13-40
+	android:name
+		ADDED from [com.github.bumptech.glide:okhttp3-integration:1.4.0] C:\Users\xiaou\.gradle\caches\transforms-1\files-1.1\okhttp3-integration-1.4.0.aar\cd64aca3fe8322021f2bccab3c2c1cb2\AndroidManifest.xml:13:13-84

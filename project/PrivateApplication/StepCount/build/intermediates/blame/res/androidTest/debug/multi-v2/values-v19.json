@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\xiaou\\Desktop\\JavaLearn\\PrivateApplication\\StepCount\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v19\\values-v19.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\xiaou\\.gradle\\caches\\transforms-1\\files-1.1\\imageselector-1.3.3.aar\\1a9303d4de07d1fadcee1804aae3d480\\res\\values-v19\\values-v19.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "176",
+                        "endLines": "7",
+                        "endColumns": "12",
+                        "endOffsets": "375"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "254"
+                    }
+                }
+            ]
+        }
+    ]
+}

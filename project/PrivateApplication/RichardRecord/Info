@@ -1,0 +1,10 @@
+获取debug.keystore的值：
+keytool -list -v -keystore ~/.Android/debug.keystore -alias androiddebugkey -storepass android -keypass android
+获取自定义key的：
+cd 到你的key所在的目录下
+keytool -list -v -keystore keystore文件
+
+
+
+jiarunxingche
+psd:two13145

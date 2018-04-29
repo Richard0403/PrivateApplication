@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.home.fragment.StepCountFragment">
+
+    <RelativeLayout
+        android:id="@+id/rl_step_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_trace_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/txt_light_grey"
+            android:textSize="12sp"
+            android:visibility="invisible"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:text="记录轨迹中..."/>
+        <TextView
+            android:id="@+id/tv_step_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="今日运动"
+            android:textColor="@color/accent"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"/>
+        <com.richard.stepcount.widget.InstrumentView
+            android:id="@+id/itv_panel_counter"
+            android:layout_width="240dp"
+            android:layout_height="240dp"
+            android:layout_below="@id/tv_step_tip"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:id="@+id/tv_step_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:layout_alignLeft="@id/itv_panel_counter"
+            android:layout_alignRight="@id/itv_panel_counter"
+            android:layout_alignTop="@id/itv_panel_counter"
+            android:layout_marginTop="90dp"
+            android:textColor="@color/primary"
+            android:gravity="center"
+            android:textSize="40sp"/>
+
+        <TextView
+            android:id="@+id/tv_count_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_step_count"
+            android:text="每日目标 6000步"
+            android:layout_alignLeft="@id/itv_panel_counter"
+            android:layout_alignRight="@id/itv_panel_counter"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/primary"
+            android:gravity="center"
+            android:textSize="12sp"/>
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

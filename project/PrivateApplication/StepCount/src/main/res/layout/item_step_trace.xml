@@ -1,0 +1,19 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    tools:context="com.richard.stepcount.view.main.FindFragment">
+
+    <ProgressBar
+        android:id="@+id/pb_steps"
+        android:layout_width="match_parent"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_height="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:max="100"
+        android:progress="20"
+        android:progressDrawable="@drawable/progress_step_horizontal"/>
+
+</RelativeLayout>

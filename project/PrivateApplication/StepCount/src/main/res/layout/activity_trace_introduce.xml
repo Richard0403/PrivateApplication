@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_trace_introduce"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.richard.stepcount.trace.TraceIntroduceActivity">
+    <include
+        android:id="@+id/ic_header"
+        layout="@layout/common_header"/>
+    <RelativeLayout
+        android:layout_below="@id/ic_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_desc"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trace introduction"/>
+
+        <TextView
+            android:id="@+id/tv_stop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_desc"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:text="停止轨迹记录"/>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Car Recorder</string>
+    <string name="shipped_ffmpeg_version">n3.0.1</string>
+    <string name="videorecording_garbage_postion">存储位置不可用,请选其它目录</string>
+    <string name="videorecording_failed_start_camera">打开摄像头失败</string>
+    <string name="videorecording_cont_start_camera">打开摄像头失败，请开启后再试！</string>
+    <string name="videorecording_cont_start_recording">无法启动视频录制</string>
+    <string name="videorecording_no_enough_garbage">内存空间不足，无法抓取视频！</string>
+
+
+    <string name="txt_main_home">首页</string>
+    <string name="txt_main_video">视频</string>
+    <string name="txt_main_person">我的</string>
+    <string name="txt_main_community">社区</string>
+    <string name="txt_main_recoder">录像</string>
+    <string name="txt_sure">确认</string>
+    <string name="txt_cancle">取消</string>
+
+
+    <string name="hello_blank_fragment">hello blank fragment!</string>
+
+
+    <!-- MainActivity -->
+    <string name="main_exit_app">再按一次说拜拜～</string>
+    <string name="main_handle_video">正在处理视频，请稍后退出</string>
+
+
+    <string name="video_location">在%1$s</string>
+    <string name="from_location_to">%1$s - %2$s</string>
+    <string name="from_time_to">%1$s-%2$s</string>
+    <string name="no_result">未搜索到结果，请更换位置关键词</string>
+
+</resources>
