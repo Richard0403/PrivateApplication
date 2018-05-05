@@ -35,6 +35,7 @@
     </RelativeLayout>
     <android.support.v7.widget.RecyclerView
         android:id="@+id/clv_content"
+        android:layout_below="@id/rl_header"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
     </android.support.v7.widget.RecyclerView>
