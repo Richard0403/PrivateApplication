@@ -11,7 +11,7 @@ public class AppConst {
 
     public static String getBaseUrl() {
         if (SysPrefer.IS_DEBUG) {
-            return LIAN_LIN_LOCAL_SERVER;
+            return TEST_SERVER;
         }
         return BASE_URL;
     }
@@ -20,7 +20,7 @@ public class AppConst {
      * 内部测试服务器地址
      */
     private static final String BASE_URL_TEST = "http://192.168.0.200:8888/";
-    private static final String TEST_SERVER = "http://api.myxiaoyou.net/";
+    private static final String TEST_SERVER = "http://api.ifinder.cc/";
     private static final String LIAN_LIN_LOCAL_SERVER = "http://192.168.0.108:8080/";
 
 
@@ -49,8 +49,6 @@ public class AppConst {
     }
     public class QQ{
         public static final String QQ_ID = "101450625";
-        //旧版ID
-//        public static final String QQ_ID = "1105410158";
     }
 
     public static String PATH_DATA = FileUtil.createRootPath(App.getInstance()) + "/cache";

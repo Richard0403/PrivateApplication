@@ -62,6 +62,7 @@ public abstract class HttpRequest<T extends BaseEntity> {
      * @param msg
      */
     protected void onFail(int code, String msg, BaseEntity entity) {
+        CodeFilter.filter(code, msg);
         ToastUtil.showSingleToast(msg);
     }
 
