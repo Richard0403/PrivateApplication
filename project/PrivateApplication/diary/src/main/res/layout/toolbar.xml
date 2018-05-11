@@ -4,7 +4,7 @@
     android:id="@+id/toolbar"
     android:layout_width="match_parent"
     android:layout_height="?attr/actionBarSize"
-    android:background="?attr/colorPrimary"
+    android:background="@color/color_theme1"
     app:contentInsetStart="0dp">
 
     <RelativeLayout
@@ -21,8 +21,8 @@
             android:maxLength="20"
             android:ellipsize="end"
             android:text=""
-            android:textColor="@color/txt_deep"
-            android:textSize="18sp" />
+            android:textColor="@color/white"
+            android:textSize="16sp" />
 
 
         <RelativeLayout

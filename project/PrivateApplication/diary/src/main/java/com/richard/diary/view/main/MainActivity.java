@@ -8,6 +8,7 @@ import android.view.View;
 import com.richard.diary.R;
 import com.richard.diary.interfaces.DrawerMainEventListener;
 import com.richard.diary.view.base.BaseActivity;
+import com.richard.diary.view.home.activity.WriteDiaryActivity;
 import com.richard.diary.widget.layout.DrawerMainView;
 import com.richard.diary.widget.layout.DrawerSideView;
 
@@ -41,7 +42,7 @@ public class MainActivity extends BaseActivity {
 
             @Override
             public void onAddClick() {
-
+                WriteDiaryActivity.start(mContext, WriteDiaryActivity.class);
             }
         });
         draw_layout.addDrawerListener(new DrawerLayout.DrawerListener() {

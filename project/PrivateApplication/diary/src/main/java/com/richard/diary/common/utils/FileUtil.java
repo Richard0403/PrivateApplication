@@ -19,7 +19,7 @@ import android.content.Context;
 import android.os.Environment;
 
 import com.richard.diary.common.base.App;
-import com.richard.diary.common.db.AppConst;
+import com.richard.diary.common.db.AppConfig;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedReader;
@@ -45,7 +45,7 @@ import java.util.List;
 public class FileUtil {
 
     public static String getChapterPath(String bookId, int chapter) {
-        return AppConst.PATH_TXT + bookId + File.separator + chapter + ".txt";
+        return AppConfig.PATH_TXT + bookId + File.separator + chapter + ".txt";
     }
 
     public static File getChapterFile(String bookId, int chapter) {
@@ -57,16 +57,16 @@ public class FileUtil {
     }
 
     public static File getBookDir(String bookId) {
-        return new File(AppConst.PATH_TXT + bookId);
+        return new File(AppConfig.PATH_TXT + bookId);
     }
 
     public static String getPicDir() {
-        String path = createDir(AppConst.PATH_PIC);
+        String path = createDir(AppConfig.PATH_PIC);
         return path;
     }
 
     public static File createWifiTempFile() {
-        String src = AppConst.PATH_DATA + "/" + System.currentTimeMillis();
+        String src = AppConfig.PATH_DATA + "/" + System.currentTimeMillis();
         File file = new File(src);
         if (!file.exists())
             createFile(file);
@@ -81,7 +81,7 @@ public class FileUtil {
      */
     public static File createWifiTranfesFile(String fileName) {
         // 取文件名作为文件夹（bookid）
-        String absPath = AppConst.PATH_TXT + "/" + fileName + "/1.txt";
+        String absPath = AppConfig.PATH_TXT + "/" + fileName + "/1.txt";
 
         File file = new File(absPath);
         if (!file.exists())
@@ -177,7 +177,7 @@ public class FileUtil {
 //            String currentEntry = entry.getName();
 //            File destFile = new File(unzipDirectory, currentEntry);
 //
-//            if (currentEntry.endsWith(AppConst.SUFFIX_ZIP)) {
+//            if (currentEntry.endsWith(AppConfig.SUFFIX_ZIP)) {
 //                zipFiles.add(destFile.getAbsolutePath());
 //            }
 //

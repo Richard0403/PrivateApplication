@@ -1,7 +1,7 @@
 package com.richard.diary.http;
 
 import com.richard.diary.common.cache.ActivityCollector;
-import com.richard.diary.common.db.AppConst;
+import com.richard.diary.common.db.AppConfig;
 import com.richard.diary.common.utils.LogUtil;
 import com.richard.diary.common.utils.StringUtils;
 import com.richard.diary.common.utils.ToastUtil;
@@ -83,7 +83,7 @@ public abstract class HttpRequest<T extends BaseEntity> {
         if (StringUtils.isEmpty(json)){
             return;
         }
-        RequestBody requestBody = RequestBody.create(MediaType.parse(AppConst.MEDIA_TYPE_FORMAT_JSON), json);
+        RequestBody requestBody = RequestBody.create(MediaType.parse(AppConfig.MEDIA_TYPE_FORMAT_JSON), json);
 
         Observable observable = null;
 
@@ -117,7 +117,7 @@ public abstract class HttpRequest<T extends BaseEntity> {
         MultipartBody.Builder builder = new MultipartBody.Builder();
         for (int i=0;i<fileName.length;i++) {
             File file = new File(filePath[i]);
-            RequestBody requestBody = RequestBody.create(MediaType.parse(AppConst.MEDIA_TYPE_FORMAT_IMG), file);
+            RequestBody requestBody = RequestBody.create(MediaType.parse(AppConfig.MEDIA_TYPE_FORMAT_IMG), file);
             builder.addFormDataPart(fileName[i], file.getName(), requestBody);
         }
         builder.setType(MultipartBody.FORM);
@@ -145,7 +145,7 @@ public abstract class HttpRequest<T extends BaseEntity> {
     /**
      * 上传多图片
      */
-    public synchronized void startMultiFile(Class<?> clazz, String methodName, String fileName, List<String> filePath, boolean isShowDialog) {
+    public synchronized void startMultiFile(Class<?> clazz, String methodName, String formName, List<String> filePath, boolean isShowDialog) {
 
         String json = createJson();
         if (StringUtils.isEmpty(json)){
@@ -155,8 +155,8 @@ public abstract class HttpRequest<T extends BaseEntity> {
         List<MultipartBody.Part> parts = new ArrayList<>(filePath.size());
         for (String path : filePath) {
             File file = new File(path);
-            RequestBody requestBody = RequestBody.create(MediaType.parse(AppConst.MEDIA_TYPE_FORMAT_IMG), file);
-            MultipartBody.Part part = MultipartBody.Part.createFormData(fileName, file.getName(), requestBody);
+            RequestBody requestBody = RequestBody.create(MediaType.parse(AppConfig.MEDIA_TYPE_FORMAT_IMG), file);
+            MultipartBody.Part part = MultipartBody.Part.createFormData(formName, file.getName(), requestBody);
             parts.add(part);
         }
         Observable observable = null;
@@ -186,6 +186,7 @@ public abstract class HttpRequest<T extends BaseEntity> {
         @Override
         public void onError(Throwable e) {
             LogUtil.e(TAG, "error=========>" + e.getMessage());
+            e.printStackTrace();
             if(e instanceof HttpException || e instanceof ConnectException){
                 ToastUtil.showSingleToast("网络错误，请检查网络");
             }else{
@@ -209,6 +210,7 @@ public abstract class HttpRequest<T extends BaseEntity> {
         @Override
         public void onError(Throwable e) {
             LogUtil.e(TAG, "error=========>" + e.getMessage());
+            e.printStackTrace();
             if(e instanceof HttpException || e instanceof ConnectException){
                 ToastUtil.showSingleToast("网络错误，请检查网络");
             }else{

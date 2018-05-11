@@ -5,7 +5,7 @@ import android.text.TextUtils;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.richard.diary.common.cache.AppCache;
-import com.richard.diary.common.db.AppConst;
+import com.richard.diary.common.db.AppConfig;
 import com.richard.diary.common.utils.LogUtil;
 
 import java.io.IOException;
@@ -72,7 +72,7 @@ public class RetroManager {
     private void initRetrofit() {
         if (retrofit == null) {
             retrofit = new Retrofit.Builder()
-                    .baseUrl(AppConst.getBaseUrl())
+                    .baseUrl(AppConfig.getBaseUrl())
                     .client(client)
                     .addCallAdapterFactory(RxJavaCallAdapterFactory.create())
                     .addConverterFactory(GsonConverterFactory.create(gson))
