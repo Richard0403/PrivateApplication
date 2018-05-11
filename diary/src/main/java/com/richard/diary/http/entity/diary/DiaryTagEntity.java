@@ -3,6 +3,7 @@ package com.richard.diary.http.entity.diary;
 import com.richard.diary.http.entity.BaseEntity;
 import com.richard.diary.http.entity.user.UserInfo;
 
+import java.io.Serializable;
 import java.util.List;
 
 /**
@@ -22,7 +23,7 @@ public class DiaryTagEntity extends BaseEntity {
         this.data = data;
     }
 
-    public static class DataBean {
+    public static class DataBean implements Serializable{
         /**
          * name : 测验
          * id : 1

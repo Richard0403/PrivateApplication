@@ -4,51 +4,131 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.richard.diary.view.main.WriteDiaryActivity">
-
-    <include layout="@layout/toolbar" />
-
+    android:background="@color/white"
+    tools:context="com.richard.diary.view.home.activity.WriteDiaryActivity">
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingBottom="20dp"
-        android:paddingLeft="20dp"
-        android:paddingTop="20dp"
-        android:layout_below="@id/toolbar">
+        android:layout_height="match_parent">
 
-        <LinearLayout
+        <ScrollView
+            android:id="@+id/sv_content"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:paddingRight="20dp">
-
-            <TextView
-                android:id="@+id/add_diary_tv_date"
+            android:layout_above="@id/rl_bottom"
+            android:layout_margin="3dp"
+            android:background="@drawable/bg_round_stroke_theme">
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="30dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <com.richard.diary.widget.richedit.RichTextEditor
+                    android:id="@+id/ret_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="15sp"
+                    android:layout_margin="3dp"
+                    android:textColor="@color/txt_middle_grey"/>
+            </LinearLayout>
+        </ScrollView>
+
+
+
+        <RelativeLayout
+            android:id="@+id/rl_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:layout_alignParentBottom="true">
+            <LinearLayout
+                android:id="@+id/ll_select"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
                 android:gravity="center_vertical"
-                android:paddingRight="5dp"
-                android:text="今天，2017年01月19日"
-                android:textSize="15sp" />
+                android:orientation="horizontal">
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+                    <ImageView
+                        android:id="@+id/iv_close"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@mipmap/icon_close_x"
+                        android:layout_centerInParent="true"
+                        android:padding="7dp"/>
+                </RelativeLayout>
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="25dp"
+                    android:background="@color/light_grey"/>
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+                    <TextView
+                        android:id="@+id/tv_pic"
+                        android:layout_width="50dp"
+                        android:layout_height="26dp"
+                        android:layout_weight="1"
+                        android:layout_centerInParent="true"
+                        android:textColor="@color/white"
+                        android:text="图片"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:background="@drawable/bg_round_theme2"/>
+                </RelativeLayout>
 
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+                    <TextView
+                        android:id="@+id/tv_type"
+                        android:layout_width="50dp"
+                        android:layout_height="26dp"
+                        android:layout_weight="1"
+                        android:layout_centerInParent="true"
+                        android:textColor="@color/txt_middle_grey"
+                        android:text="私密"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:background="@drawable/bg_round_stroke_theme1"/>
+                </RelativeLayout>
 
-            <com.richard.diary.widget.LinedEditText
-                android:id="@+id/add_diary_et_content"
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1"
-                android:background="@drawable/bg_round_stroke"
-                android:enabled="true"
-                android:gravity="top"
-                android:lineSpacingExtra="5dp"
-                android:maxLines="10"
-                android:minLines="8"
-                android:paddingLeft="20dp"
-                android:paddingRight="20dp"
-                android:paddingTop="10dp"
-                android:scrollbars="vertical"
-                android:textSize="17sp" />
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+                    <TextView
+                        android:id="@+id/tv_tag"
+                        android:layout_width="50dp"
+                        android:layout_height="26dp"
+                        android:layout_weight="1"
+                        android:layout_centerInParent="true"
+                        android:textColor="@color/white"
+                        android:text="标签"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:background="@drawable/bg_round_theme2"/>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+                    <TextView
+                        android:id="@+id/tv_save"
+                        android:layout_width="50dp"
+                        android:layout_height="26dp"
+                        android:layout_weight="1"
+                        android:layout_centerInParent="true"
+                        android:textColor="@color/white"
+                        android:text="保存"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:background="@drawable/bg_round_theme1"/>
+                </RelativeLayout>
+            </LinearLayout>
 
-        </LinearLayout>
+        </RelativeLayout>
     </RelativeLayout>
 </RelativeLayout>

@@ -4,14 +4,14 @@ import com.richard.diary.common.base.App;
 import com.richard.diary.common.cache.SysPrefer;
 import com.richard.diary.common.utils.FileUtil;
 
-public class AppConst {
+public class AppConfig {
 
     public static final String APP_DB_NAME = "xiaou.db";
     public static final String APP_DB_PWD = "xiaou";
 
     public static String getBaseUrl() {
         if (SysPrefer.IS_DEBUG) {
-            return TEST_SERVER;
+            return LIAN_LIN_LOCAL_SERVER;
         }
         return BASE_URL;
     }

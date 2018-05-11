@@ -18,14 +18,10 @@ import com.richard.diary.common.utils.ImageLoader;
 import com.richard.diary.common.utils.ToastUtil;
 import com.richard.diary.http.HttpRequest;
 import com.richard.diary.http.api.HomeService;
-import com.richard.diary.http.entity.BaseEntity;
 import com.richard.diary.http.entity.diary.DiaryTagEntity;
-import com.richard.diary.http.entity.user.UserEntity;
-import com.richard.diary.http.entity.user.UserInfo;
 import com.richard.diary.interfaces.DrawerMainEventListener;
-import com.richard.diary.view.home.DiaryTagAdapter;
-import com.richard.diary.view.main.MainActivity;
-import com.richard.diary.view.main.SignInActivity;
+import com.richard.diary.view.home.activity.DiaryListActivity;
+import com.richard.diary.view.home.adapter.DiaryTagAdapter;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -102,6 +98,12 @@ public class DrawerMainView extends LinearLayout {
                 getUserTag();
             }
         }, clv_content);
+        tagAdapter.setOnItemClickListener(new BaseQuickAdapter.OnItemClickListener() {
+            @Override
+            public void onItemClick(BaseQuickAdapter adapter, View view, int position) {
+                DiaryListActivity.start(getContext(), String.valueOf(diaryTags.get(position).getId()), diaryTags.get(position).getName());
+            }
+        });
     }
 
     private void initData() {

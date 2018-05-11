@@ -1,5 +1,7 @@
 package com.richard.diary.http.entity.user;
 
+import java.io.Serializable;
+
 /**
  * by Richard on 2017/9/8
  * desc:
@@ -29,7 +31,7 @@ public class UserInfo {
         this.token = token;
     }
 
-    public static class UserBean {
+    public static class UserBean implements Serializable{
         /**
          * id : 1
          * name : richae0x1.62e798p40
