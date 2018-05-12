@@ -93,7 +93,7 @@ public class DiaryListActivity extends BaseActivity {
             @Override
             protected void onSuccess(DiaryListEntity result) {
                 super.onSuccess(result);
-                if(pageNo == 1){
+                if(pageNo == 0){
                     diaryList.clear();
                 }
                 listAdapter.loadMoreComplete();

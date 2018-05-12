@@ -1,27 +1,33 @@
 package com.richard.diary.view.home.activity;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
+import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.ImageView;
-import android.widget.ScrollView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.google.gson.Gson;
 import com.richard.diary.R;
 import com.richard.diary.common.db.AppConstant;
+import com.richard.diary.common.utils.ImageLoader;
+import com.richard.diary.common.utils.StringUtils;
+import com.richard.diary.common.utils.ToastUtil;
 import com.richard.diary.http.HttpRequest;
 import com.richard.diary.http.api.HomeService;
-import com.richard.diary.http.entity.diary.DiaryTagEntity;
+import com.richard.diary.http.entity.BaseEntity;
 import com.richard.diary.http.entity.diary.UploadEntity;
 import com.richard.diary.view.base.BaseActivity;
-import com.richard.diary.widget.richedit.RichTextEditor;
 import com.yuyh.library.imgsel.ISNav;
 import com.yuyh.library.imgsel.config.ISListConfig;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -30,29 +36,31 @@ import java.util.Map;
 import butterknife.BindView;
 import butterknife.OnClick;
 
-public class WriteDiaryActivity extends BaseActivity {
-    @BindView(R.id.ret_content)
-    RichTextEditor ret_content;
-    @BindView(R.id.sv_content)
-    ScrollView sv_content;
-    @BindView(R.id.tv_tag)
-    TextView tv_tag;
-    @BindView(R.id.tv_type)
-    TextView tv_type;
+public class TagCreateActivity extends BaseActivity {
+    @BindView(R.id.tv_title)
+    TextView  tv_title;
+    @BindView(R.id.et_title)
+    EditText et_title;
+    @BindView(R.id.et_desc)
+    EditText et_desc;
+    @BindView(R.id.rl_add)
+    RelativeLayout rl_add;
+    @BindView(R.id.iv_pic)
+    ImageView iv_pic;
 
-    private DiaryTagEntity.DataBean selectTag;
+
+    private String picFilePath;
+    private String tagTitle;
+    private String tagDesc;
 
     @Override
     protected int getLayout() {
-        return R.layout.activity_write_diary;
+        return R.layout.activity_tag_create;
     }
 
     @Override
     protected void initView(Bundle savedInstanceState) {
-        sv_content.setFocusable(true);
-        sv_content.setFocusableInTouchMode(true);
-        sv_content.requestFocus();
-        sv_content.requestFocusFromTouch();
+        tv_title.setText("添加标签");
     }
 
     @Override
@@ -60,24 +68,52 @@ public class WriteDiaryActivity extends BaseActivity {
 
     }
 
-    @OnClick({R.id.tv_pic, R.id.iv_close, R.id.tv_tag, R.id.tv_type})
-    protected void Onclick(View view){
+    public static void startForResult(Activity activity){
+        Intent intent = new Intent(activity, TagCreateActivity.class);
+        activity.startActivityForResult(intent, AppConstant.Req.TAG_CREATE);
+    }
+
+    @OnClick({R.id.rl_back, R.id.rl_add, R.id.tv_save})
+    protected void onClick(View view){
         switch (view.getId()){
-            case R.id.tv_pic:
-                photoPicker();
-                break;
-            case R.id.iv_close:
+            case R.id.rl_back:
                 finish();
                 break;
-            case R.id.tv_tag:
-                TagSelectActivity.startForResult(this);
-                break;
-            case R.id.tv_type:
+            case R.id.rl_add:
+                photoPicker();
                 break;
             case R.id.tv_save:
+                tagTitle = et_title.getText().toString();
+                tagDesc = et_desc.getText().toString();
+                if(StringUtils.isEmpty(tagTitle) || StringUtils.isEmpty(tagDesc) || StringUtils.isEmpty(picFilePath)){
+                    ToastUtil.showSingleToast("请填写标题，简介，并选取图片");
+                    return;
+                }
+                uploadImage(picFilePath);
                 break;
-
         }
+    }
+
+    private void saveTag(final String selectPicUrl) {
+        HttpRequest httpRequest = new HttpRequest<BaseEntity>() {
+            @Override
+            public String createJson() {
+                Map map = new HashMap();
+                map.put("tagName", tagTitle);
+                map.put("description", tagDesc);
+                map.put("picture", selectPicUrl);
+                return new Gson().toJson(map);
+            }
+
+            @Override
+            protected void onSuccess(BaseEntity uploadEntity) {
+                super.onSuccess(uploadEntity);
+                setResult(AppConstant.Req.TAG_CREATE);
+                finish();
+            }
+        };
+        httpRequest.start(HomeService.class, "addDiaryTag", true);
+
     }
 
     /**
@@ -122,6 +158,15 @@ public class WriteDiaryActivity extends BaseActivity {
         ISNav.getInstance().toListActivity(this, config, AppConstant.Req.PIC_SELECT);
     }
 
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if (requestCode == AppConstant.Req.PIC_SELECT && resultCode == RESULT_OK && data != null) {
+            List<String> pathList = data.getStringArrayListExtra("result");
+            picFilePath = pathList.get(0);
+            ImageLoader.getInstance().displayImage(mContext, new File(picFilePath), iv_pic);
+        }
+    }
     private void uploadImage(String filePath){
         List<String> imgList = new ArrayList<>();
         imgList.add(filePath);
@@ -136,23 +181,11 @@ public class WriteDiaryActivity extends BaseActivity {
             protected void onSuccess(UploadEntity result) {
                 super.onSuccess(result);
                 if(result.getData().size()>0){
-                    ret_content.insertImage(result.getData().get(0));
+                    String selectPic = result.getData().get(0);
+                    saveTag(selectPic);
                 }
             }
         };
         httpRequest.startMultiFile(HomeService.class, "uploadImage", "files",imgList,true);
-    }
-
-    @Override
-    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        super.onActivityResult(requestCode, resultCode, data);
-        if (requestCode == AppConstant.Req.PIC_SELECT && resultCode == RESULT_OK && data != null) {
-            List<String> pathList = data.getStringArrayListExtra("result");
-            uploadImage(pathList.get(0));
-        }
-        if(requestCode == AppConstant.Req.TAG_SELECT && resultCode == AppConstant.Req.TAG_SELECT){
-            selectTag = (DiaryTagEntity.DataBean) data.getSerializableExtra(AppConstant.Extra.EXTRA_TAG);
-            tv_tag.setText(selectTag.getName());
-        }
     }
 }

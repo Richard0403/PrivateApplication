@@ -86,6 +86,7 @@ public class TagSelectActivity extends BaseActivity {
                 finish();
                 break;
             case R.id.rl_complete:
+                TagCreateActivity.startForResult(this);
                 break;
         }
     }
@@ -103,7 +104,7 @@ public class TagSelectActivity extends BaseActivity {
             @Override
             protected void onSuccess(DiaryTagEntity result) {
                 super.onSuccess(result);
-                if(pageNo == 1){
+                if(pageNo == 0){
                     diaryTags.clear();
                 }
                 tagAdapter.loadMoreComplete();
@@ -116,5 +117,14 @@ public class TagSelectActivity extends BaseActivity {
             }
         };
         httpRequest.start(HomeService.class, "getUserTag");
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if(requestCode == AppConstant.Req.TAG_CREATE && resultCode == AppConstant.Req.TAG_CREATE){
+            pageNo = 0;
+            getUserTag();
+        }
     }
 }

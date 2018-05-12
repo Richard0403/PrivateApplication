@@ -145,7 +145,7 @@ public class DrawerMainView extends LinearLayout {
             @Override
             protected void onSuccess(DiaryTagEntity result) {
                 super.onSuccess(result);
-                if(pageNo == 1){
+                if(pageNo == 0){
                     diaryTags.clear();
                 }
                 tagAdapter.loadMoreComplete();

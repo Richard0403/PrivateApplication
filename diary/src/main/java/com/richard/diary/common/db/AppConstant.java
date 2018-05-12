@@ -8,6 +8,7 @@ public class AppConstant {
     public class Req {
         public static final int TAG_SELECT = 0x0001;
         public static final int PIC_SELECT = 0x0002;
+        public static final int TAG_CREATE = 0x0003;
     }
 
 
