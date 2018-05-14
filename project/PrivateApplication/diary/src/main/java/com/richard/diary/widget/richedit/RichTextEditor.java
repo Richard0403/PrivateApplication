@@ -358,4 +358,19 @@ public class RichTextEditor extends LinearLayout {
         public String imagePath;
     }
 
+    public String getEditData() {
+        List<RichTextEditor.EditData> editList = buildEditData();
+        StringBuffer content = new StringBuffer();
+        for (RichTextEditor.EditData itemData : editList) {
+            if (itemData.inputStr != null) {
+                content.append(itemData.inputStr);
+            } else if (itemData.imagePath != null) {
+                content.append("<br/><img style='max-width: 100%;'src=\"").append(itemData.imagePath).append("\"/><br/><br/>");
+            }
+        }
+        String result = content.toString();
+        result = result.replaceAll("\n", "<br/>");
+        return result;
+    }
+
 }

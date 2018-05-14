@@ -9,4 +9,5 @@ public class ApiConfig {
     public static final String DIARY_PRAISE = "comment/addPraise";
     public static final String UPLOAD_IMAGE = "upload/uploadFile";
     public static final String SAVE_TAG = "diaryTag/addDiaryTag";
+    public static final String SAVE_DIARY = "diary/addDiary";
 }

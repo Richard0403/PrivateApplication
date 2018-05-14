@@ -89,7 +89,7 @@
                         android:layout_weight="1"
                         android:layout_centerInParent="true"
                         android:textColor="@color/txt_middle_grey"
-                        android:text="私密"
+                        android:text="私密^"
                         android:gravity="center"
                         android:textSize="12sp"
                         android:background="@drawable/bg_round_stroke_theme1"/>
