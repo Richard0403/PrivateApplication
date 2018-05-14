@@ -34,6 +34,8 @@ public interface HomeService {
     Observable<UploadEntity> uploadImage(@Part List<MultipartBody.Part> files);
     @POST(ApiConfig.SAVE_TAG)
     Observable<BaseEntity> addDiaryTag(@Body RequestBody requestBody);
+    @POST(ApiConfig.SAVE_DIARY)
+    Observable<BaseEntity> addDiary(@Body RequestBody requestBody);
 
 
 }

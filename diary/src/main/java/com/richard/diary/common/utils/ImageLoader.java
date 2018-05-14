@@ -138,7 +138,7 @@ public class ImageLoader {
         Glide.with(context)
                 .load(url)
                 .crossFade()
-                .bitmapTransform(new RoundedCornersTransformation(context, 15, 9))
+                .bitmapTransform(new CenterCrop(context), new RoundedCornersTransformation(context, 15, 9))
                 .placeholder(placeholderImage)
                 .error(failureImage)
                 .into(imageView);
@@ -149,7 +149,7 @@ public class ImageLoader {
         Glide.with(context)
                 .load(url)
                 .crossFade()
-                .bitmapTransform(new RoundedCornersTransformation(context, 25, 0))
+                .bitmapTransform(new CenterCrop(context), new RoundedCornersTransformation(context, 15, 9))
                 .into(imageView);
     }
 

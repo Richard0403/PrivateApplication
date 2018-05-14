@@ -28,4 +28,5 @@ public class DiaryTagAdapter extends BaseQuickAdapter<DiaryTagEntity.DataBean, B
         ImageLoader.getInstance().displayRoundImage(mContext, item.getPicture(), (ImageView) helper.getView(R.id.iv_bg));
         helper.setText(R.id.tv_tag, item.getName()+"("+item.getDiaryCount()+")");
     }
+
 }

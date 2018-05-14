@@ -13,11 +13,17 @@ import com.bumptech.glide.Glide;
 import com.google.gson.Gson;
 import com.richard.diary.R;
 import com.richard.diary.common.db.AppConstant;
+import com.richard.diary.common.utils.StringUtils;
+import com.richard.diary.common.utils.ToastUtil;
 import com.richard.diary.http.HttpRequest;
 import com.richard.diary.http.api.HomeService;
+import com.richard.diary.http.entity.BaseEntity;
 import com.richard.diary.http.entity.diary.DiaryTagEntity;
 import com.richard.diary.http.entity.diary.UploadEntity;
 import com.richard.diary.view.base.BaseActivity;
+import com.richard.diary.view.home.dialog.CommonWriteDialog;
+import com.richard.diary.view.home.dialog.ConfirmDialog;
+import com.richard.diary.view.home.dialog.SelectTypeDialog;
 import com.richard.diary.widget.richedit.RichTextEditor;
 import com.yuyh.library.imgsel.ISNav;
 import com.yuyh.library.imgsel.config.ISListConfig;
@@ -41,6 +47,10 @@ public class WriteDiaryActivity extends BaseActivity {
     TextView tv_type;
 
     private DiaryTagEntity.DataBean selectTag;
+    private int selectPrivateType = 0;
+    private String selectImage;
+    private String diaryTitle;
+    private String diaryContent;
 
     @Override
     protected int getLayout() {
@@ -60,24 +70,112 @@ public class WriteDiaryActivity extends BaseActivity {
 
     }
 
-    @OnClick({R.id.tv_pic, R.id.iv_close, R.id.tv_tag, R.id.tv_type})
+    @OnClick({R.id.tv_pic, R.id.iv_close, R.id.tv_tag, R.id.tv_type, R.id.tv_save})
     protected void Onclick(View view){
         switch (view.getId()){
             case R.id.tv_pic:
                 photoPicker();
                 break;
             case R.id.iv_close:
-                finish();
+                finishPage();
                 break;
             case R.id.tv_tag:
                 TagSelectActivity.startForResult(this);
                 break;
             case R.id.tv_type:
+                selectType();
                 break;
             case R.id.tv_save:
+                saveDiary();
                 break;
 
         }
+    }
+
+    private void finishPage(){
+        if(StringUtils.isEmpty(ret_content.getEditData())){
+            finish();
+        }else{
+            ConfirmDialog confirmDialog = new ConfirmDialog(this,  new ConfirmDialog.OnViewClick() {
+                @Override
+                public void onConfirm() {
+                    finish();
+                }
+                @Override
+                public void onCancle() {
+                }
+            });
+            confirmDialog.setCancelText("退出后将无法保存内容");
+            confirmDialog.show();
+        }
+    }
+
+    private void saveDiary() {
+        if(checkSavable()){
+            HttpRequest httpRequest = new HttpRequest<BaseEntity>() {
+                @Override
+                public String createJson() {
+                    Map map = new HashMap();
+                    map.put("title", diaryTitle);
+                    map.put("content", diaryContent);
+                    map.put("pubStatus", selectPrivateType);
+                    map.put("picture", selectImage);
+                    map.put("tagId", selectTag.getId());
+                    return new Gson().toJson(map);
+                }
+
+                @Override
+                protected void onSuccess(BaseEntity result) {
+                    super.onSuccess(result);
+                    ToastUtil.showSingleToast(result.getMsg());
+                    finish();
+                }
+            };
+            httpRequest.start(HomeService.class, "addDiary", true);
+        }
+    }
+
+    private boolean checkSavable(){
+        diaryContent = ret_content.getEditData();
+        if(StringUtils.isEmpty(ret_content.getEditData())){
+            ToastUtil.showSingleToast("请编写笔记内容");
+            return false;
+        }
+        if(selectTag == null){
+            ToastUtil.showSingleToast("请选择标签");
+            return false;
+        }
+        if(StringUtils.isEmpty(diaryTitle)){
+            CommonWriteDialog writeDialog = new CommonWriteDialog(this, new CommonWriteDialog.OnViewClick() {
+                @Override
+                public void onContent(String content) {
+                    diaryTitle = content;
+                    saveDiary();
+                }
+            });
+            writeDialog.show();
+            ToastUtil.showSingleToast("请填写标题");
+            return false;
+        }
+        return true;
+    }
+
+
+    private void selectType() {
+        SelectTypeDialog typeDialog = new SelectTypeDialog(this, selectPrivateType, new SelectTypeDialog.OnViewClick() {
+            @Override
+            public void onClickType(int type) {
+                selectPrivateType = type;
+                if(selectPrivateType == 0){
+                    tv_type.setText("私密");
+                }else if(selectPrivateType == 1){
+                    tv_type.setText("公开");
+                }else if(selectPrivateType == 2){
+                    tv_type.setText("给Ta");
+                }
+            }
+        });
+        typeDialog.show();
     }
 
     /**
@@ -137,6 +235,9 @@ public class WriteDiaryActivity extends BaseActivity {
                 super.onSuccess(result);
                 if(result.getData().size()>0){
                     ret_content.insertImage(result.getData().get(0));
+                    if(StringUtils.isEmpty(selectImage)){
+                        selectImage = result.getData().get(0);
+                    }
                 }
             }
         };
@@ -154,5 +255,10 @@ public class WriteDiaryActivity extends BaseActivity {
             selectTag = (DiaryTagEntity.DataBean) data.getSerializableExtra(AppConstant.Extra.EXTRA_TAG);
             tv_tag.setText(selectTag.getName());
         }
+    }
+
+    @Override
+    public void onBackPressed() {
+        finishPage();
     }
 }

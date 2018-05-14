@@ -20,7 +20,7 @@ public class LoadingDialog extends Dialog {
     private static LoadingDialog customProgressDialog = null;
 
     public LoadingDialog(Context context){
-        super(context,  R.style.CustomProgressDialog);
+        super(context,  R.style.CustomDialog);
         this.context = context;
     }
 
