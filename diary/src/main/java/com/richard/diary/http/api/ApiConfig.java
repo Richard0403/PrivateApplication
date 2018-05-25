@@ -10,4 +10,5 @@ public class ApiConfig {
     public static final String UPLOAD_IMAGE = "upload/uploadFile";
     public static final String SAVE_TAG = "diaryTag/addDiaryTag";
     public static final String SAVE_DIARY = "diary/addDiary";
+    public static final String QUERY_DIARY_DETAIL = "diary/getDiaryDetail";
 }

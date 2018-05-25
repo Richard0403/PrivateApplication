@@ -3,39 +3,40 @@ package com.richard.diary.http.entity.diary;
 import com.richard.diary.http.entity.BaseEntity;
 import com.richard.diary.http.entity.user.UserInfo;
 
-import java.util.List;
-
 /**
  * By Richard on 2018/4/27.
  */
 
-public class DiaryListEntity extends BaseEntity {
+public class DiaryDetailEntity extends BaseEntity {
 
+    /**
+     * data : {"id":3,"title":"滚滚滚不会","content":"GG侧耳","user":{"id":3,"name":"Richard0x1.62e7c2p40","age":null,"sex":1,"header":"http://oow561q5i.bkt.clouddn.com/13ce4e0fa45a4cbb98ac9a6a3815b1a4.jpg"},"picture":"http://oow561q5i.bkt.clouddn.com/random/47142ca871144857c2eee5e5f3b477b3.jpg","updateTime":1526356191000,"createTime":1526356191000,"status":0,"publicStatus":0,"diaryTag":{"id":1,"user":{"id":3,"name":"Richard0x1.62e7c2p40","age":null,"sex":1,"header":"http://oow561q5i.bkt.clouddn.com/13ce4e0fa45a4cbb98ac9a6a3815b1a4.jpg"},"name":"模具工","description":"姐就可口可乐了","picture":"http://oow561q5i.bkt.clouddn.com/5ebebcb7d38243c38ba0530ee4068f11.jpg","status":0,"updateTime":1526355019000,"createTime":1526355019000},"readNum":0,"shareNum":0}
+     */
 
-    private List<DataBean> data;
+    private DataBean data;
 
-    public List<DataBean> getData() {
+    public DataBean getData() {
         return data;
     }
 
-    public void setData(List<DataBean> data) {
+    public void setData(DataBean data) {
         this.data = data;
     }
 
     public static class DataBean {
         /**
-         * id : 1
-         * title : 测是
-         * content : 测试
+         * id : 3
+         * title : 滚滚滚不会
+         * content : GG侧耳
          * user : {"id":3,"name":"Richard0x1.62e7c2p40","age":null,"sex":1,"header":"http://oow561q5i.bkt.clouddn.com/13ce4e0fa45a4cbb98ac9a6a3815b1a4.jpg"}
-         * picture : null
-         * updateTime : 1524724922000
-         * createTime : 1524724898000
+         * picture : http://oow561q5i.bkt.clouddn.com/random/47142ca871144857c2eee5e5f3b477b3.jpg
+         * updateTime : 1526356191000
+         * createTime : 1526356191000
          * status : 0
          * publicStatus : 0
-         * diaryTag : {"id":1,"user":{"id":3,"name":"Richard0x1.62e7c2p40","age":null,"sex":1,"header":"http://oow561q5i.bkt.clouddn.com/13ce4e0fa45a4cbb98ac9a6a3815b1a4.jpg"},"name":"测验","description":"测试","picture":"http://oow561q5i.bkt.clouddn.com/random/ad81c14c31a7a4d732a302f5c4c594a9.jpg","status":1,"updateTime":1524724990000,"createTime":1524724980000}
-         * readNum : 3
-         * shareNum : 2
+         * diaryTag : {"id":1,"user":{"id":3,"name":"Richard0x1.62e7c2p40","age":null,"sex":1,"header":"http://oow561q5i.bkt.clouddn.com/13ce4e0fa45a4cbb98ac9a6a3815b1a4.jpg"},"name":"模具工","description":"姐就可口可乐了","picture":"http://oow561q5i.bkt.clouddn.com/5ebebcb7d38243c38ba0530ee4068f11.jpg","status":0,"updateTime":1526355019000,"createTime":1526355019000}
+         * readNum : 0
+         * shareNum : 0
          */
 
         private long id;
@@ -50,15 +51,6 @@ public class DiaryListEntity extends BaseEntity {
         private DiaryTagBean diaryTag;
         private int readNum;
         private int shareNum;
-        private int isPraise;
-
-        public int getIsPraise() {
-            return isPraise;
-        }
-
-        public void setIsPraise(int isPraise) {
-            this.isPraise = isPraise;
-        }
 
         public long getId() {
             return id;
@@ -156,19 +148,20 @@ public class DiaryListEntity extends BaseEntity {
             this.shareNum = shareNum;
         }
 
+
         public static class DiaryTagBean {
             /**
              * id : 1
              * user : {"id":3,"name":"Richard0x1.62e7c2p40","age":null,"sex":1,"header":"http://oow561q5i.bkt.clouddn.com/13ce4e0fa45a4cbb98ac9a6a3815b1a4.jpg"}
-             * name : 测验
-             * description : 测试
-             * picture : http://oow561q5i.bkt.clouddn.com/random/ad81c14c31a7a4d732a302f5c4c594a9.jpg
-             * status : 1
-             * updateTime : 1524724990000
-             * createTime : 1524724980000
+             * name : 模具工
+             * description : 姐就可口可乐了
+             * picture : http://oow561q5i.bkt.clouddn.com/5ebebcb7d38243c38ba0530ee4068f11.jpg
+             * status : 0
+             * updateTime : 1526355019000
+             * createTime : 1526355019000
              */
 
-            private int id;
+            private long id;
             private UserInfo.UserBean user;
             private String name;
             private String description;
@@ -177,11 +170,11 @@ public class DiaryListEntity extends BaseEntity {
             private long updateTime;
             private long createTime;
 
-            public int getId() {
+            public long getId() {
                 return id;
             }
 
-            public void setId(int id) {
+            public void setId(long id) {
                 this.id = id;
             }
 
@@ -240,7 +233,6 @@ public class DiaryListEntity extends BaseEntity {
             public void setCreateTime(long createTime) {
                 this.createTime = createTime;
             }
-
 
         }
     }

@@ -1,6 +1,7 @@
 package com.richard.diary.http.api;
 import com.richard.diary.common.db.bean.DiaryBean;
 import com.richard.diary.http.entity.BaseEntity;
+import com.richard.diary.http.entity.diary.DiaryDetailEntity;
 import com.richard.diary.http.entity.diary.DiaryListEntity;
 import com.richard.diary.http.entity.diary.DiaryTagEntity;
 import com.richard.diary.http.entity.diary.UploadEntity;
@@ -36,6 +37,8 @@ public interface HomeService {
     Observable<BaseEntity> addDiaryTag(@Body RequestBody requestBody);
     @POST(ApiConfig.SAVE_DIARY)
     Observable<BaseEntity> addDiary(@Body RequestBody requestBody);
+    @POST(ApiConfig.QUERY_DIARY_DETAIL)
+    Observable<DiaryDetailEntity> queryDiaryDetail(@Body RequestBody requestBody);
 
 
 }

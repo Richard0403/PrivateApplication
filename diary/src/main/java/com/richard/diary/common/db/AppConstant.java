@@ -14,5 +14,6 @@ public class AppConstant {
 
     public class Extra{
         public static final String EXTRA_TAG = "EXTRA_TAG";
+        public static final String EXTRA_DIARY_ID = "EXTRA_DIARY_ID";
     }
 }

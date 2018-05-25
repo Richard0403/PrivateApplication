@@ -15,6 +15,7 @@ import com.richard.diary.http.api.HomeService;
 import com.richard.diary.http.entity.BaseEntity;
 import com.richard.diary.http.entity.diary.DiaryListEntity;
 import com.richard.diary.http.entity.diary.DiaryTagEntity;
+import com.richard.diary.view.home.activity.DiaryDetailActivity;
 
 import java.util.HashMap;
 import java.util.List;
@@ -45,6 +46,12 @@ public class DiaryListAdapter extends BaseQuickAdapter<DiaryListEntity.DataBean,
             @Override
             public void onClick(View v) {
                 praiseDiary(item.getId(), getData().indexOf(item));
+            }
+        });
+        helper.getView(R.id.rl_root).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                DiaryDetailActivity.start(mContext, item.getId());
             }
         });
     }
