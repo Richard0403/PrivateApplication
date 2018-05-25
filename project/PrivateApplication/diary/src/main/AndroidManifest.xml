@@ -68,7 +68,8 @@
             android:launchMode="singleTask" />
         <activity android:name=".view.home.activity.DiaryListActivity" />
         <activity android:name=".view.home.activity.TagSelectActivity" />
-        <activity android:name=".view.home.activity.TagCreateActivity"></activity>
+        <activity android:name=".view.home.activity.TagCreateActivity" />
+        <activity android:name=".view.home.activity.DiaryDetailActivity"></activity>
     </application>
 
 </manifest>

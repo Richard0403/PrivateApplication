@@ -15,13 +15,16 @@ import android.widget.TextView;
 
 import com.richard.diary.R;
 import com.richard.diary.common.utils.ImageLoader;
+import com.richard.diary.common.utils.StringUtils;
+
+import java.util.List;
 
 
 /**
  * Created by sendtion on 2016/6/24.
  * 显示富文本
  */
-public class RichTextView extends ScrollView {
+public class RichTextView extends LinearLayout {
     private static final int EDIT_PADDING = 10; // edittext常规padding是10dp
 
     private int viewTagIndex = 1; // 新生的view都会打一个tag，对每个view来说，这个tag是唯一的。
@@ -161,4 +164,23 @@ public class RichTextView extends ScrollView {
         return BitmapFactory.decodeFile(filePath, options);
     }
 
+    /**
+     * 设置文本
+     * @param content
+     */
+    public void setHtmlText(String content){
+        clearAllLayout();
+        List<String> textList = StringUtils.cutStringByImgTag(content);
+        for (int i = 0; i < textList.size(); i++) {
+            String text = textList.get(i);
+            if (text.contains("<img") && text.contains("src=")) {
+                String imagePath = StringUtils.getImgSrc(text);
+                addImageViewAtIndex(getLastIndex(), imagePath);
+            } else {
+//                String textContent = text.replaceAll("<br/>","\n");
+                addTextViewAtIndex(getLastIndex(), text);
+            }
+        }
+        scrollTo(0,0);
+    }
 }

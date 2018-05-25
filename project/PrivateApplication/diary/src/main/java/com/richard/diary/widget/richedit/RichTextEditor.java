@@ -365,10 +365,10 @@ public class RichTextEditor extends LinearLayout {
             if (itemData.inputStr != null) {
                 content.append(itemData.inputStr);
             } else if (itemData.imagePath != null) {
-                content.append("<br/><img style='max-width: 100%;'src=\"").append(itemData.imagePath).append("\"/><br/><br/>");
+                content.append("<img style='max-width: 100%;'src=\"").append(itemData.imagePath).append("\"/><br/>");
             }
         }
-        String result = content.toString();
+        String result = content.append("<br/><br/>").toString();
         result = result.replaceAll("\n", "<br/>");
         return result;
     }
